@@ -147,6 +147,54 @@ margin-right: 120px;
 }
 .upsideBar__img {
 }
+
+.upsideBar__slogan {
+}
+.slogan {
+}
+.slogan__stracture {
+    display: flex;
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+}
+.frstround{}
+.slogan__round {
+    border: 1px solid #F4F4F4;
+    border-radius: 25px;
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.scndround{ transform: translateX(-10px); 
+    -webkit-transform: translateX(-10px); 
+    -moz-transform: translateX(-10px); 
+    -ms-transform: translateX(-10px);
+     -o-transform: translateX(-10px);
+}
+.slogan__line {
+    transform: translate(-10px,-4.5px);
+    width: 154px;
+    border-bottom: 1px solid   #F4F4F4;
+    -webkit-transform: translate(-10px,-4.5px);
+    -moz-transform: translate(-10px,-4.5px);
+    -ms-transform: translate(-10px,-4.5px);
+    -o-transform: translate(-10px,-4.5px);
+}
+.slogan__verticalLine{
+    width: 101px;
+    border-bottom: 1px solid #F4F4F4;
+    transform: rotate(90deg) translate(45px,-26px);
+    -webkit-transform: rotate(90deg) translate(45px,-26px);
+    -moz-transform: rotate(90deg) translate(45px,-26px);
+    -ms-transform: rotate(90deg) translate(45px,-26px);
+    -o-transform: rotate(90deg) translate(45px,-26px);
+}
+.slogan__buttomCircle{}
+.slogan__buttomLine{}
 /*-------------------------------------------------center PArt------------------------*/
 
 .header__centerPart {
