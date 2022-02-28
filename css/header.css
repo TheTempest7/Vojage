@@ -31,9 +31,40 @@
   width: 55%;
   position: relative;
   flex: 1 1 auto;
-  z-index: 2;
+  overflow: hidden;
 }
 
+.backgr__towernative .backgr__rightCycleStracture {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 97, 191, 0.2);
+  transform: translate(300px, 300px);
+  -webkit-transform: translate(390px, 659px);
+  -moz-transform: translate(300px, 300px);
+  -ms-transform: translate(300px, 300px);
+  -o-transform: translate(300px, 300px);
+}
+
+.backgr__towernative .backgr__rightCycleStracture .rightCycleStracture__firstChild {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50, -50%);
+  -moz-transform: translate(-50, -50%);
+  -ms-transform: translate(-50, -50%);
+  -o-transform: translate(-50, -50%);
+  backdrop-filter: blur(-15px);
+}
+
+/*https://russianblogs.com/article/17691680194/*/
 .backgr__towerBlur {
   flex: 1 1 auto;
   height: 800px;
@@ -190,10 +221,77 @@
   -moz-transform: rotate(90deg) translate(45px, -26px);
   -ms-transform: rotate(90deg) translate(45px, -26px);
   -o-transform: rotate(90deg) translate(45px, -26px);
+  position: relative;
+  z-index: 5;
+}
+
+.slogan__buttomCircle {
+  position: relative;
+  z-index: 5;
+  border: 1px solid #F4F4F4;
+  border-radius: 25px;
+  width: 20px;
+  height: 20px;
+  transform: translate(100px);
+  -webkit-transform: translate(40px, 84.5px);
+  -moz-transform: translate(100px);
+  -ms-transform: translate(100px);
+  -o-transform: translate(100px);
+}
+
+.slogan__buttomLine {
+  width: 17px;
+  border-bottom: 1px solid #F4F4F4;
+  transform: translate(60px, 94.5px);
+  -webkit-transform: translate(60px, 94.5px);
+  -moz-transform: translate(60px, 94.5px);
+  -ms-transform: translate(60px, 94.5px);
+  -o-transform: translate(60px, 94.5px);
+  position: relative;
+  z-index: 5;
+}
+
+.slogan__blueSphere {
+  position: relative;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  transform: translate(40px, 55px);
+  -webkit-transform: translate(25px, 50px);
+  -moz-transform: translate(25px, 50px);
+  -ms-transform: translate(40px, 55px);
+  -o-transform: translate(40px, 55px);
+}
+
+.slogan__blueCircumference {
+  position: relative;
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+  border: 10px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: translate(100px, 100px);
+  -webkit-transform: translate(0px, -25px);
+  -moz-transform: translate(100px, 100px);
+  -ms-transform: translate(100px, 100px);
+  -o-transform: translate(100px, 100px);
 }
 
 /*-------------------------------------------------center PArt------------------------*/
 .centerPart {
+  margin-top: -175px;
+  margin-left: 150px;
   display: flex;
   justify-content: space-around;
 }
@@ -286,4 +384,102 @@
   color: #F4F4F4;
   padding: 20px 8px;
   box-sizing: border-box;
+}
+
+.leftCards__frst {
+  position: absolute;
+  width: 165px;
+  border-bottom: 1px solid white;
+  transform: translate(0px, 55px);
+  -webkit-transform: translate(0px, 55px);
+  -moz-transform: translate(0px, 55px);
+  -ms-transform: translate(0px, 55px);
+  -o-transform: translate(0px, 55px);
+}
+
+.leftCards__scnd {
+  position: absolute;
+  width: 158px;
+  border-bottom: 1px solid white;
+  transform: rotate(90deg) translate(133.5px, -85.5px);
+  -webkit-transform: rotate(90deg) translate(133.5px, -85.5px);
+  -moz-transform: rotate(90deg) translate(133.5px, -85.5px);
+  -ms-transform: rotate(90deg) translate(133.5px, -85.5px);
+  -o-transform: rotate(90deg) translate(133.5px, -85.5px);
+}
+
+.leftCards__thrd {
+  position: absolute;
+  width: 25px;
+  border-bottom: 1px solid white;
+  transform: translate(165px, 212px);
+  -webkit-transform: translate(165px, 212px);
+  -moz-transform: translate(165px, 212px);
+  -ms-transform: translate(165px, 212px);
+  -o-transform: translate(165px, 212px);
+}
+
+.leftCards__frsth {
+  position: absolute;
+  width: 25px;
+  border: 1px solid white;
+  height: 25px;
+  border-radius: 50%;
+  transform: translate(190px, 200px);
+}
+
+.stractureTwo .leftCards__frst {
+  width: 155px;
+}
+
+.stractureTwo .leftCards__scnd {
+  width: 43px;
+  transform: rotate(90deg) translate(76px, -133px);
+  -webkit-transform: rotate(90deg) translate(76px, -133px);
+  -moz-transform: rotate(90deg) translate(76px, -133px);
+  -ms-transform: rotate(90deg) translate(76px, -133px);
+  -o-transform: rotate(90deg) translate(76px, -133px);
+}
+
+.stractureTwo .leftCards__thrd {
+  transform: translate(154px, 98px);
+  width: 34px;
+  -webkit-transform: translate(154px, 98px);
+  -moz-transform: translate(154px, 98px);
+  -ms-transform: translate(154px, 98px);
+  -o-transform: translate(154px, 98px);
+}
+
+.stractureTwo .leftCards__frsth {
+  transform: translate(188px, 86px);
+  -webkit-transform: translate(188px, 86px);
+  -moz-transform: translate(190px, 100px);
+  -ms-transform: translate(190px, 100px);
+  -o-transform: translate(190px, 100px);
+}
+
+.stractureThree .leftCards__scnd {
+  width: 73px;
+  transform: rotate(90deg) translate(92px, -128px);
+  -webkit-transform: rotate(90deg) translate(92px, -128px);
+  -moz-transform: rotate(90deg) translate(92px, -128px);
+  -ms-transform: rotate(90deg) translate(92px, -128px);
+  -o-transform: rotate(90deg) translate(92px, -128px);
+}
+
+.stractureThree .leftCards__thrd {
+  transform: translate(165px, 128px);
+  width: 24px;
+  -webkit-transform: translate(165px, 128px);
+  -moz-transform: translate(165px, 128px);
+  -ms-transform: translate(165px, 128px);
+  -o-transform: translate(165px, 128px);
+}
+
+.stractureThree .leftCards__frsth {
+  transform: translate(189px, 116px);
+  -webkit-transform: translate(189px, 116px);
+  -moz-transform: translate(189px, 116px);
+  -ms-transform: translate(189px, 116px);
+  -o-transform: translate(189px, 116px);
 }
