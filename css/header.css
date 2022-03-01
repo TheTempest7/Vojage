@@ -62,6 +62,47 @@
   -ms-transform: translate(-50, -50%);
   -o-transform: translate(-50, -50%);
   backdrop-filter: blur(-15px);
+  background-image: url(../img/hugeTower.png);
+  background-position: 56% 92%;
+}
+
+.backgr__towernative .backgr__rightCycleStracture .rightCycleStracture__firstChild .rightCycleStracture__secondChild {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 97, 191, 0.2);
+}
+
+.backgr__towernative .backgr__rightCycleStracture .rightCycleStracture__firstChild .rightCycleStracture__secondChild .rightCycleStracture__thirdChild {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/hugeTower.png);
+  background-position: 58% 90%;
+}
+
+.backgr__towernative .backgr__rightCycleStracture .rightCycleStracture__firstChild .rightCycleStracture__secondChild .rightCycleStracture__thirdChild .rightCycleStracture__fourth {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(6px);
+  background-color: rgba(0, 97, 191, 0.2);
 }
 
 /*https://russianblogs.com/article/17691680194/*/
@@ -74,6 +115,82 @@
   top: 0;
   background-color: rgba(0, 97, 191, 0.2);
   backdrop-filter: blur(3px);
+  overflow: hidden;
+}
+
+.backgr__towerBlur .towerBlur__firstChild {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/hugeTower.png);
+  background-position: 60% 93%;
+  transform: translate(100px, 100px);
+  -webkit-transform: translate(-230px, 259px);
+  -moz-transform: translate(100px, 100px);
+  -ms-transform: translate(100px, 100px);
+  -o-transform: translate(100px, 100px);
+}
+
+.backgr__towerBlur .towerBlur__firstChild .towerBlur__secondChild {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 97, 191, 0.2);
+  backdrop-filter: blur(6px);
+}
+
+.backgr__towerBlur .towerBlur__firstChild .towerBlur__secondChild .towerBlur__thirdChild {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/hugeTower.png);
+  background-position: 57% 91%;
+}
+
+.backgr__towerBlur .towerBlur__firstChild .towerBlur__secondChild .towerBlur__thirdChild .towerBlur__fourthChild {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 97, 191, 0.2);
+  backdrop-filter: blur(6px);
+}
+
+.backgr__towerBlur .towerBlur__firstChild .towerBlur__secondChild .towerBlur__thirdChild .towerBlur__fourthChild .towerBlur__fivthChild {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../img/hugeTower.png);
+  background-position: 57% 91%;
+}
+
+.backgr__tiny {
+  background-image: url(../img/tallPicture.png);
+  width: 200px;
 }
 
 .backgr__camel {
@@ -482,4 +599,115 @@
   -moz-transform: translate(189px, 116px);
   -ms-transform: translate(189px, 116px);
   -o-transform: translate(189px, 116px);
+}
+
+/*-------------------------------------------------main firstblock------------------------*/
+/*-------------------------------------------------Route------------------------*/
+.main {
+  margin-top: 200px;
+}
+
+.Route__header-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Route__cirleStructure {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #0061BF;
+  position: relative;
+  z-index: 2;
+}
+
+.Route__cirleStructure .Route__cirleStructure-firstChild {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #F4F4F4;
+  position: relative;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.Route__cirleStructure .Route__cirleStructure-firstChild .Route__cirleStructure-secondChild {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #0061BF;
+  position: relative;
+  z-index: 4;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.Route__caption {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 48px;
+  color: #0061BF;
+  display: flex;
+  margin-left: 16px;
+}
+
+.Route__subCaption {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  color: #353535;
+  flex: 1 1 100%;
+  margin-left: 44px;
+}
+
+/*-------------------------------------------------Map--------------------------------------*/
+.map__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map__right-caption {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #353535;
+}
+
+.MapStructure__body {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
