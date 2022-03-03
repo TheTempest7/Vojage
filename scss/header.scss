@@ -1,3 +1,7 @@
+.wrapper{max-width: 1440px;
+margin: 0 auto;
+overflow: hidden;
+}
 .header {
     position: relative;
     display: flex;
@@ -222,6 +226,8 @@ color: #F4F4F4;
 .backgr__tinyBand {
     width: 100px;
     background-color: #0061BF;
+    position: relative;
+    z-index: 4;
 }
 
 /*-------------------------------------------------upside-clatch------------------------*/
@@ -670,10 +676,13 @@ color: #353535;
 flex: 1 1 100%;
 margin-left: 44px;
 }
+
+
 /*-------------------------------------------------Map--------------------------------------*/
 
 
 .main__map {
+    margin-top: 50px;
 }
 .Map {
 }
@@ -683,11 +692,11 @@ margin-left: 44px;
 }
 .map__body {
     display: flex;
-    justify-content: space-between;
 }
 .map__image {
 }
 .map__right {
+    margin-left: 40px;
 }
 .map__right-body {
 }
@@ -700,40 +709,460 @@ line-height: 21px;
 color: #353535;
 }
 .map__right-stracture {
+    margin-top: 34px;
 }
 .MapStructure {
 }
 .MapStructure__body {
-font-family: Source Sans Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
 }
-.MapStructure__item {
-}
-.MapStructure__container {
-}
+
 .MapStructure__pattern {
+    position: absolute;
+    z-index: 2;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #0061BF;
+    transform: translate(200px ,200px);
+    -webkit-transform: translate(207px, 27px);
+    -moz-transform: translate(200px ,200px);
+    -ms-transform: translate(200px ,200px);
+    -o-transform: translate(200px ,200px);
 }
 .MapStructure__pattern-firstChild {
+    position: absolute;
+    z-index: 3;
+    width: 38.8px;
+    height: 38.8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
 .MapStructure__pattern-secondChild {
+    position: absolute;
+    z-index: 4;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #0061BF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
 .MapStructure__pattern-thirdChild {
+    position: absolute;
+    z-index: 5;
+    width: 9.2px;
+    height: 9.2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
 .MapStructure__pattern-fourthChild {
+    position: absolute;
+    z-index: 6;
+    width: 7.2px;
+    height: 7.2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #0061BF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
-.backgr__rightCycleStracture {
+.MapStructure__item {
+    position: relative;
 }
-.rightCycleStracture {
+.ItemStructure1{
+    flex: 1 1 100%;
+    margin-bottom: 42px;
 }
-.rightCycleStracture__firstChild {
+.ItemStructure3{
+    .MapStructure__pattern{
+        transform: translate(300px,300px);
+        -webkit-transform:  translate(179px, -23px);
+        -moz-transform: translate(300px,300px);
+        -ms-transform: translate(300px,300px);
+        -o-transform: translate(300px,300px);
 }
-.rightCycleStracture__secondChild {
+.ItemStructure__container{
+    overflow:hidden;
+    .ItemStructure__pattern{
+    transform: translate(300px,300px);
+    -webkit-transform: translate(179px, -83px);
+    -moz-transform: translate(300px,300px);
+    -ms-transform: translate(300px,300px);
+    -o-transform: translate(300px,300px);
+}}
+
 }
-.rightCycleStracture__thirdChild {
+.ItemStructure2{margin-right: 98px;}
+
+.ItemStructure__container {
+    background-color: #0061BF;
+    width: 230px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
 }
-.rightCycleStracture__fourth {
+.ItemStructure__body{font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-left: 16px;
+}
+.ItemStructure__pattern {
+    position: absolute;
+    z-index: 2;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #F4F4F4;
+    transform: translate(200px ,200px);
+    -webkit-transform: translate(207px, -33px);
+    -moz-transform: translate(200px ,200px);
+    -ms-transform: translate(200px ,200px);
+    -o-transform: translate(200px ,200px);
+}
+.ItemStructure__pattern-firstChild {
+    position: absolute;
+    z-index: 3;
+    width: 38.8px;
+    height: 38.8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #0061BF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.ItemStructure__pattern-secondChild {
+    position: absolute;
+    z-index: 4;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.ItemStructure__pattern-thirdChild {
+    position: absolute;
+    z-index: 5;
+    width: 9.2px;
+    height: 9.2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #0061BF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.ItemStructure__pattern-fourthChild {
+    position: absolute;
+    z-index: 6;
+    width: 7.2px;
+    height: 7.2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #FFF;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+
+/*--------------Map (tracery consist of lines and circles on right side of block)--------------------------------------*/
+
+.map__lines {
+    position: absolute;
+}
+.map__littlePart {
+}
+.map__littlePartFirstChild {
+    width: 98px;
+    border-bottom:1px solid #0061BF;
+    position: absolute;
+    z-index: 3;
+    transform: translate(100px,100px);
+    -webkit-transform: translate(853px, -195px);
+    -moz-transform: translate(100px,100px);
+    -ms-transform: translate(100px,100px);
+    -o-transform: translate(100px,100px);
+}
+.map__littlePartSecondChild {
+    width: 33px;
+    border-bottom:1px solid #0061BF;
+    position: absolute;
+    z-index: 3;
+    transform: rotate(90deg) translate(100px,100px);
+    -webkit-transform: rotate(90deg) translate(-211px, -934px);
+    -moz-transform: rotate(90deg) translate(100px,100px);
+    -ms-transform: rotate(90deg) translate(100px,100px);
+    -o-transform: rotate(90deg) translate(100px,100px);
+}
+.map__littlePartThirdChild {
+   width: 44px;
+   border-bottom:1px solid #0061BF;
+   position: absolute;
+   z-index: 3;
+   transform: translate(1px,1px);
+   -webkit-transform: translate(950px, -227px);
+   -moz-transform: translate(1px,1px);
+   -ms-transform: translate(1px,1px);
+   -o-transform: translate(1px,1px);
+}
+.map__littlePartFoursChild{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid  #0061BF;
+    transform: translate(900px,-200px);
+    -webkit-transform: translate(993px, -236px);
+    -moz-transform: translate(900px,-200px);
+    -ms-transform: translate(900px,-200px);
+    -o-transform: translate(900px,-200px);
+}
+
+
+.map__bigPart {
+}
+.map__bigPartFirstChild {
+    width: 26px;
+    border-bottom:1px solid #0061BF;
+    position: absolute;
+    z-index: 3;
+    transform: translate(100px,100px);
+    -webkit-transform: translate(852px, -53px);
+    -moz-transform: translate(100px,100px);
+    -ms-transform: translate(100px,100px);
+    -o-transform: translate(100px,100px);
+}
+.map__bigPartSecondChild {
+    width: 92px;
+    border-bottom:1px solid #0061BF;
+    position: absolute;
+    z-index: 3;
+    transform: rotate(90deg) translate(100px,100px);
+    -webkit-transform: rotate(90deg) translate(-98.5px, -832px);
+    -moz-transform: rotate(90deg) translate(100px,100px);
+    -ms-transform: rotate(90deg) translate(100px,100px);
+    -o-transform: rotate(90deg) translate(100px,100px);
+}
+.map__bigPartThirdChild {
+    width: 251px;
+    border-bottom:1px solid #0061BF;
+    position: absolute;
+    z-index: 3;
+    transform: translate(100px,100px);
+    -webkit-transform: translate(878px, -144px);
+    -moz-transform: translate(100px,100px);
+    -ms-transform: translate(100px,100px);
+    -o-transform: translate(100px,100px);
+}
+.map__bigPartFoursChild {
+    width: 21px;
+    border-bottom:1px solid #0061BF;
+    position: absolute;
+    z-index: 3;
+    transform: rotate(90deg) translate(100px,100px);
+    -webkit-transform: rotate(90deg) translate(-134px, -1119px);
+    -moz-transform: rotate(90deg) translate(100px,100px);
+    -ms-transform: rotate(90deg) translate(100px,100px);
+    -o-transform: rotate(90deg) translate(100px,100px);
+}
+.map__bigPartFivthChild {
+    width: 44px;
+    border-bottom:1px solid #0061BF;
+    position: absolute;
+    z-index: 3;
+    transform: rotate(90deg) translate(100px,100px);
+    -webkit-transform: rotate(90deg) translate(-166px, -979px);
+    -moz-transform: rotate(90deg) translate(100px,100px);
+    -ms-transform: rotate(90deg) translate(100px,100px);
+    -o-transform: rotate(90deg) translate(100px,100px);
+}
+.map__bigPartSixthChild {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid  #0061BF;
+    transform: translate(900px,-200px);
+    -webkit-transform:translate(991px, -207px);
+    -moz-transform: translate(900px,-200px);
+    -ms-transform: translate(900px,-200px);
+    -o-transform: translate(900px,-200px);
+}
+
+
+/*-----------------------(another one circles tracery placed on right side beetwin header and route)--------------------------------*/
+
+
+
+.rightPattern {
+    position: absolute;
+    z-index: 3;
+    width: 397px;
+    height: 397px;
+    border-radius: 50%;
+    background: rgba(0, 97, 191, 0.1);
+backdrop-filter: blur(1px);
+    transform: translate(300px,300px);
+    -webkit-transform:translate(1229px, 628px);
+    -moz-transform: translate(300px,300px);
+    -ms-transform: translate(300px,300px);
+    -o-transform: translate(300px,300px);
+}
+.rightPattern__firstChild {
+    position: relative;
+    z-index: 4;
+    width: 317.6px;
+    height: 317.6px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50, -50%);
+    -moz-transform: translate(-50, -50%);
+    -ms-transform: translate(-50, -50%);
+    -o-transform: translate(-50, -50%);
+    background: rgba(0, 97, 191, 0.2);
+    backdrop-filter: blur(1px);
+    background-position: 56% 92%;
+}
+.backgr__rightPatternSecondChild{
+            position: relative;
+            z-index: 6;
+            width: 198.5px;
+            height: 198.5px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(1px);
+            transform:translate(300px,300px) ;
+            -webkit-transform:translate(611px, 326px);
+            -moz-transform:translate(300px,300px) ;
+            -ms-transform:translate(300px,300px) ;
+            -o-transform:translate(300px,300px) ;
+}
+.backgr__rightPatternthirdChild {
+    position: relative;
+    z-index: 8;
+    width: 79.4px;
+    height: 79.4px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0061BF;
+    opacity: 0.2;
+}
+.backgr__rightPatternfourth {
+    position: relative;
+    z-index: 9;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
 }
