@@ -1194,3 +1194,158 @@
   transform: translate(-50%, -50%);
   background-color: #FFF;
 }
+
+/*------------------------------------------(Table left List )--------------------------------------------*/
+.main__table {
+  margin-top: 54px;
+}
+
+.Table__body {
+  display: flex;
+}
+
+.Table__leftList {
+  flex: 1 1 19.25%;
+}
+
+.leftList__body {
+  border: 1px solid #0061BF;
+  height: 600px;
+}
+
+.leftList__item-body {
+  display: flex;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  width: 210px;
+  border-bottom: 1px solid #0061BF;
+  position: relative;
+}
+
+.leftList__firstInscription {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353535;
+  margin-right: 18px;
+  white-space: nowrap;
+}
+
+.leftList__secondInscription {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353535;
+  margin-right: 76px;
+  white-space: nowrap;
+}
+
+.leftList__link {
+  position: absolute;
+  right: 0;
+}
+
+.leftList__arrow {
+  cursor: pointer;
+}
+
+.leftList__indicated .leftList__arrow path {
+  fill: red;
+}
+
+/*------------------------------------------(part of the Table where explanation day schedule is )--------------------------------------------*/
+.Explanation__item-body {
+  display: flex;
+}
+
+.Explanation__textPart {
+  border-top: 1px solid #0061BF;
+  border-left: 1px solid #0061BF;
+  border-bottom: 1px solid #0061BF;
+  height: 600px;
+}
+
+.TextPart__body {
+  padding: 16px 40px 0px  50px;
+}
+
+.TextPart__caption {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #353535;
+}
+
+.TextPart__date {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353535;
+  margin-top: 10px;
+}
+
+.TextPart__time {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353535;
+  margin-top: 5px;
+}
+
+.TextPart__paragraph-body {
+  margin-top: 20px;
+}
+
+.TextPart__paragraph:nth-child(2) {
+  margin-top: 20px;
+}
+
+.TextPart__paragraph {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #353535;
+}
+
+.TextPart__bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 69px;
+}
+
+.TextPart__left {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  max-width: 283px;
+}
+
+.TextPart__btn {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F4F4F4;
+  background-color: #0061BF;
+  padding: 10px 35px  10px 40px;
+}
+
+.explanation__disable {
+  display: none;
+}
