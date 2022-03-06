@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -1218,8 +1219,11 @@
   padding: 20px 0px;
   margin: 0px 20px;
   width: 210px;
-  border-bottom: 1px solid #0061BF;
   position: relative;
+}
+
+.leftList__item:not(:last-child) {
+  border-bottom: 1px solid #0061BF;
 }
 
 .leftList__firstInscription {
@@ -1348,4 +1352,62 @@
 
 .explanation__disable {
   display: none;
+}
+
+/*------------------------------------------(pdf )--------------------------------------------*/
+.main__pdf {
+  margin-top: 49px;
+}
+
+.Pdf__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Pdf__textone {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #353535;
+}
+
+.Pdf__texttwo {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* Текст темний */
+  color: #353535;
+}
+
+.Pdf__input {
+  border: 1px solid #0061BF;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  max-width: 360px;
+}
+
+.Pdf__input::placeholder {
+  padding: 18px 37px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #353535;
+  opacity: 0.6;
+}
+
+.Pdf__btn {
+  background: rgba(0, 97, 191, 0.6);
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #F4F4F4;
+  padding: 16px 66px;
 }
