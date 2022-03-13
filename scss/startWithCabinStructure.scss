@@ -125,7 +125,7 @@ max-width: 361px;
   left: 50%;
   top:50%;
   transform: translate(-50%,-50%);
-  -webkit-transform: translate(-90%, -383px);
+  -webkit-transform: translate(-90%, -341px);
   -moz-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
@@ -223,6 +223,7 @@ white-space: nowrap;
   -o-transform: translate(-50%,-50%);
 }
 .CabContnt__body {
+  margin-top: -84px;
   margin-left:30px ;
   display: flex;
   flex-direction: column;
@@ -304,13 +305,23 @@ display: flex;
   display: flex;
   justify-content: space-between;
 }
+.centerCabinSt{display: none;}
+.centerCabinStBody{margin-top: 0px;
+}
+.leftCabinSt{
+  transform: translate(0px,0px);
+  -webkit-transform: translate(-15px, 319px);
+  -moz-transform: translate(0px,0px);
+  -ms-transform: translate(0px,0px);
+  -o-transform: translate(0px,0px);
+}
 .CabContnt__compicatedStructure {
   width: 40px;
   height: 40px;
   background-color: #fff;
   position: absolute;
   transform: translate(-20px,-20px);
-  -webkit-transform: translate(39px, 17px);
+  -webkit-transform: translate(38.5px, 17px);
   -moz-transform: translate(-20px,-20px);
   -ms-transform: translate(-20px,-20px);
   -o-transform: translate(-20px,-20px);
@@ -400,15 +411,64 @@ justify-content: flex-start;
 
 .Cabin__btn-container {
   margin-top: 30px;
+  max-width: 361px;
+  background: #FFC614;
+ padding: 5px 20px;
+  transition:all 0.5s ease 0.3s ;
+  -webkit-transition:all 0.5s ease 0.3s ;
+  -moz-transition:all 0.5s ease 0.3s ;
+  -ms-transition:all 0.5s ease 0.3s ;
+  -o-transition:all 0.5s ease 0.3s ;
 }
 .Cabin__btn {
+  padding:6px 104px;
   background: #FFC614;
-  padding: 11px 124px;
-  .Cabin__link{
+  transition:all 0.5s ease 0.3s ;
+  -webkit-transition:all 0.5s ease 0.3s ;
+  -moz-transition:all 0.5s ease 0.3s ;
+  -ms-transition:all 0.5s ease 0.3s ;
+  -o-transition:all 0.5s ease 0.3s ;
+}
+.Cabin__btn:hover{
+  border: 1px solid transparent;
+  border-image: linear-gradient(rgb(250, 244, 157) , #FFC614);
+  -moz-border-image: -moz-linear-gradient(left,rgb(250, 244, 157), #FFC614);
+-webkit-border-image: -webkit-linear-gradient(left,rgb(250, 244, 157), #FFC614);
+border-image-slice: 1;
+}
+.Cabin__link
+{
+  background:#FFC614;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
     color: #353535;}
+
+
+
+.Cabin__footer {
+  max-width: 460px;
+  margin-top: 30px;
+  }
+.Cabin__footerText {
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
