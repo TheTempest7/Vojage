@@ -15,8 +15,7 @@ position: relative;
     max-height: 800px;
     z-index: 1;
 }
-.backgr {
-}
+
 .backgr__big {
     position: relative;
 }
@@ -254,10 +253,7 @@ color: #F4F4F4;
     margin: 0 auto;
     padding: 0 15px;
 }
-.header__upsideBar {
-}
-.upsideBar {
-}
+
 .upsideBar__body {
     position: relative;
     z-index: 3;
@@ -283,13 +279,7 @@ line-height: 20px;
 color: #F4F4F4;
 margin-right: 120px;
 }
-.upsideBar__img {
-}
 
-.upsideBar__slogan {
-}
-.slogan {
-}
 .slogan__stracture {
     display: flex;
     transform: translateX(-10px);
@@ -298,7 +288,7 @@ margin-right: 120px;
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
 }
-.frstround{}
+
 .slogan__round {
     border: 1px solid #F4F4F4;
     border-radius: 25px;
@@ -394,8 +384,7 @@ margin-right: 120px;
 }
 /*-------------------------------------------------center PArt------------------------*/
 
-.header__centerPart {
-}
+
 .centerPart {
     margin-top: -175px;
     margin-left: 150px;
@@ -452,10 +441,7 @@ padding: 12px 66px;
     z-index: 3;
     margin-top: -608px;
 }
-.leftCards {
-}
-.leftCards__body {
-}
+
 .leftCards__item {
     width: 160px;
     height: 110px;
@@ -486,9 +472,7 @@ height: 80px;
     padding: 20px 8px;
     box-sizing: border-box;
 }
-.leftCards__structure{
 
-}
 .leftCards__frst {
     position: absolute;
     width: 165px;
@@ -588,18 +572,7 @@ height: 80px;
 /*-------------------------------------------------Route------------------------*/
 .main {margin-top: 200px;
 }
-.main__route {
-}
-.Route {
-}
-.Route__container {
-}
-.container {
-}
-.Route__body {
-}
-.Route__header {
-}
+
 .Route__header-body {
     display: flex;
     flex-wrap: wrap;
@@ -685,22 +658,15 @@ margin-left: 44px;
 .main__map {
     margin-top: 50px;
 }
-.Map {
-}
-.map__container {
-}
-.container {
-}
+
 .map__body {
     display: flex;
 }
-.map__image {
-}
+
 .map__right {
     margin-left: 40px;
 }
-.map__right-body {
-}
+
 .map__right-caption {
 font-family: Playfair Display;
 font-style: normal;
@@ -712,8 +678,7 @@ color: #353535;
 .map__right-stracture {
     margin-top: 34px;
 }
-.MapStructure {
-}
+
 .MapStructure__body {
     display: flex;
     flex-wrap: wrap;
@@ -956,8 +921,7 @@ color: #353535;
 .map__lines {
     position: absolute;
 }
-.map__littlePart {
-}
+
 .map__littlePartFirstChild {
     width: 98px;
     border-bottom:1px solid #0061BF;
@@ -1010,8 +974,7 @@ color: #353535;
 }
 
 
-.map__bigPart {
-}
+
 .map__bigPartFirstChild {
     width: 26px;
     border-bottom:1px solid #0061BF;
@@ -1175,12 +1138,7 @@ backdrop-filter: blur(1px);
             -ms-transform:translate(300px,300px) ;
             -o-transform:translate(300px,300px) ;
 }
-.backgr__rightPatternthirdChild {
-   
-}
-.backgr__rightPatternfourth {
 
-}
 
 
 /*------------------------------------------(Table left List )--------------------------------------------*/
@@ -1188,26 +1146,17 @@ backdrop-filter: blur(1px);
 .main__table {
     margin-top: 54px;
 }
-.Table {
-}
-.Table__container {
-}
-.container {
-}
+
 .Table__body {
     display: flex;
 }
 .Table__leftList {
     flex: 1 1 19.25%;
 }
-.leftList {
-}
+
 .leftList__body {
     border: 1px solid #0061BF;
     height: 600px;
-}
-
-.leftList__item {
 }
 .leftList__item-body {
     display: flex;
@@ -1222,9 +1171,6 @@ backdrop-filter: blur(1px);
     border-bottom: 1px solid #0061BF;
 }
 
-.leftList__item-body:not(:last-child){
-    
-}
 .leftList__firstInscription {
 font-family: Source Sans Pro;
 font-style: normal;
@@ -1259,16 +1205,8 @@ white-space: nowrap;
 }
 
 /*------------------------------------------(part of the Table where explanation day schedule is )--------------------------------------------*/
-.Table__explanation {
-}
-.Explanation {
-}
-.Explanation__body {
-    
-}
-.Explanation__item {
-    
-}
+
+
 .Explanation__item-body {
     display: flex;
 }
@@ -1278,8 +1216,7 @@ white-space: nowrap;
     border-bottom:1px solid #0061BF ;
     height: 600px;
 }
-.TextPart {
-}
+
 .TextPart__body {
     padding: 16px 40px 0px  50px;
 }
@@ -1335,8 +1272,7 @@ line-height: 20px;
 color: #000000;
 max-width: 283px;
 }
-.TextPart__btn-body{
-}
+
 .TextPart__btn {
 font-family: Source Sans Pro;
 font-style: normal;
@@ -1347,10 +1283,7 @@ color: #F4F4F4;
 background-color:  #0061BF;
 padding: 10px 35px  10px 40px;
 }
-.Explanation__imgColumn {
-}
-.Explanation__img {
-}
+
 .explanation__disable{display: none;}
 
 
@@ -1360,18 +1293,11 @@ padding: 10px 35px  10px 40px;
 .main__pdf {
     margin-top: 49px;
 }
-.Pdf {
-}
-.Pdf__container {
-}
-.container {
-}
+
 .Pdf__body {display: flex;
     justify-content: space-between;
 }
-.Pdf__textcontainer {
-    
-}
+
 .Pdf__textone {
     font-family: Source Sans Pro;
 font-style: normal;
@@ -1386,11 +1312,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 20px;
-
-/* Текст темний */
-
 color: #353535;
-
 }
 .Pdf__input {
     border: 1px solid #0061BF;
@@ -1408,8 +1330,7 @@ line-height: 25px;
 color: #353535;
 opacity: 0.6;
 }
-.Pdf__link {
-}
+
 .Pdf__btn {
     background: rgba(0, 97, 191, 0.6);
     font-family: Source Sans Pro;
@@ -1426,16 +1347,6 @@ padding: 16px 66px;
 
 .main__benefits {
     margin-top: 130px;
-}
-.Benefits {
-}
-.Benefits__container {
-}
-.container {
-}
-.Benefits__body {
-}
-.Benefits__header {
 }
 .Benefits__header-body {
     display: flex;
@@ -1525,8 +1436,7 @@ margin-left: 50px;
     display: flex;
     justify-content: space-between;
 }
-.Benefits__item {
-}
+
 .Benefits__pattern {
     position: absolute;
     z-index: 2;
@@ -1735,8 +1645,7 @@ margin-bottom: 10px;
     -o-transform: translate(-50%,-50%); 
 }
 
-.Benefits__rightSidePattern {
-}
+
 .rightSidePattern {
     display: flex;
     flex-direction: column;
@@ -1770,10 +1679,7 @@ margin-bottom: 10px;
 /*------------------------------------------(benefits hugeRoundPattern )--------------------------------------------*/
 
 
-.Benefits__patterns {
-}
-.BenePatterns {
-}
+
 /*------------------------------------------(benefits hugeRoundPattern first one )--------------------------------------------*/
 .BenePatterns__rightPattern {
     transform: translate(300px,300px);
@@ -1783,8 +1689,7 @@ margin-bottom: 10px;
     -o-transform: translate(300px,300px);
 }
 
-.BenePatterns__firstChild {
-}
+
 
 .BenePatterns__SecondChild {
     background-color: rgb(255, 255, 255);
@@ -1793,8 +1698,7 @@ margin-bottom: 10px;
 .BenePatterns__thirdChild {background-color: #0061BF;
 }
 
-.BenePatterns__fourth {
-}
+
 /*------------------------------------------(benefits hugeRoundPattern second one )--------------------------------------------*/
 .BenePatterns__rightPattern2 {
     transform: translate(-300px,-300px);
@@ -1803,15 +1707,12 @@ margin-bottom: 10px;
     -ms-transform: translate(-300px,-300px);
     -o-transform: translate(-300px,-300px);
 }
-.BenePatterns__firstChild2 {
-}
+
 .BenePatterns__SecondChild2 {
     background-color: #FFF;
 }
-.BenePatterns__thirdChild2 {
-}
-.BenePatterns__fourth2 {
-}
+
+
 
 
 
