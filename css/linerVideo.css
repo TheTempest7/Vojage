@@ -1,0 +1,20 @@
+.main__linerVideo {
+  margin-top: 50px;
+}
+
+.linerVideo__body {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  padding: 0 0 52.5% 0;
+  position: relative;
+}
+
+.linerVideo__link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

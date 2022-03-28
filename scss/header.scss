@@ -236,14 +236,33 @@ color: #F4F4F4;
     width: 25px;
     height: 25px;
     margin-right: 27px;
+    transition:all 0.5s ease 0.3s ;
+-webkit-transition:all 0.5s ease 0.3s ;
+-moz-transition:all 0.5s ease 0.3s ;
+-ms-transition:all 0.5s ease 0.3s ;
+-o-transition:all 0.5s ease 0.3s ;
+
 }
+.upsideBar__facebook:hover{
+    box-shadow: -4px 4px 6px rgba(0, 97, 191, 0.25);
+}
+
 
 
 
 .upsideBar__instagram{
     width: 25px;
     height: 25px;
+    transition:all 0.5s ease 0.3s ;
+-webkit-transition:all 0.5s ease 0.3s ;
+-moz-transition:all 0.5s ease 0.3s ;
+-ms-transition:all 0.5s ease 0.3s ;
+-o-transition:all 0.5s ease 0.3s ;
 }
+.upsideBar__instagram:hover{
+    box-shadow: -4px 4px 6px rgba(0, 97, 191, 0.25);
+}
+
 
 .header__container {
     position: relative;
@@ -423,17 +442,26 @@ max-width: 300px;
 .centerCost{max-width: 175px;}
 .centerPart__btn {
     margin-top: 18px;
+    background: #FFC614;
+    box-shadow: -10px 10px 30px rgba(53, 53, 53, 0.15);
+    max-width: 230px;
+    max-height: 50px;
+    padding: 9px 16px;
+
+}
+.centerPart__btn-link{
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 22px;
-line-height: 26px;
-color: #F4F4F4;
-background: #FFC614;
-box-shadow: -10px 10px 30px rgba(53, 53, 53, 0.15);
-max-width: 230px;
-max-height: 50px;
-padding: 12px 66px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: calc(26/22)*100%;
+    color: #F4F4F4;
+    padding: 3px 50px;
+    transition:all 0.5s ease 0.3s ;
+    -webkit-transition:all 0.5s ease 0.3s ;
+    -moz-transition:all 0.5s ease 0.3s ;
+    -ms-transition:all 0.5s ease 0.3s ;
+    -o-transition:all 0.5s ease 0.3s ;
 }
 /*-------------------------------------------------left  header PArt------------------------*/
 .header__leftCards {
