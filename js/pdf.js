@@ -1,5 +1,4 @@
 let numberValue=document.querySelector('.Pdf__input');
-console.log(numberValue);
 let btn=document.querySelector('.Pdf__link');
 
 let data =[];

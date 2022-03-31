@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="css/linerAdvertaising.css">
     <link rel="stylesheet" href="css/coordinator.css">
     <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/popup.css">
     <title>Bon Vojage</title>
 </head>
 <body>
 
-    <div class="wrapper">
+    <div class="wrapper ">
             <header class="header">
                 <div class="header__background backgr">
                     <div class="backgr__big">
@@ -59,14 +60,15 @@
                             <li class="bigBand__item"> <a  class="bigBand__itemLink" href="#">Лайнер</a> </li>
                             <li class="bigBand__item"> <a  class="bigBand__itemLink" href="#">Отзывы</a> </li>
                         </ul>
+                        <div class="backgr__rightPattern rightPattern  HugeRoundStructure">
+                            <div class="rightPattern__firstChild  HugeRoundStructureFirst">
+                            </div>
+                        </div>
                     </div>
                     <div class="backgr__tiny">
                         
                     </div>
-                    <div class="backgr__rightPattern rightPattern  HugeRoundStructure">
-                        <div class="rightPattern__firstChild  HugeRoundStructureFirst">
-                        </div>
-                    </div>
+
                     <div class="backgr__rightPatternSecondChild  HugeRoundStructureSecond ">
                         <div class="backgr__rightPatternthirdChild   HugeRoundStructureThird">
                             <div class="backgr__rightPatternfourth    HugeRoundStructureFours"></div>
@@ -172,7 +174,7 @@
                     </div>
                 </div>
             </header>
-            <main class="main">
+            <main class="main ">
                 <div class="main__route Route">
                     <div class="Route__container container">
                         <div class="Route__body">
@@ -880,7 +882,10 @@
                                 *Для скачивания введите Ваш номер телефона.
                             </p>
                         </div>
-                        <input class="Pdf__input" type="number" placeholder="Введите Ваш номер телефона">
+                        <div class="Pdf__inputContainer">
+                            <input class="Pdf__input" type="number" placeholder="Введите Ваш номер телефона">
+                        </div>
+
                         <a href="files/blank.pdf" download="" class="Pdf__link" >
                             <button class="Pdf__btn"> Скачать PDF</button>
                         </a>
@@ -1182,9 +1187,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="Cabin__btn-container">
-                                            <button class="Cabin__btn">
-                                               <a href="#" class="Cabin__link">Предбронь</a> 
+                                        <div class="Cabin__btn-container ">
+                                            <button class="Cabin__btn  popupLink">
+                                               <a href="#popup" class="Cabin__link">Предбронь</a> 
                                             </button>
                                         </div>
                                     </div>
@@ -1268,9 +1273,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="Cabin__btn-container">
-                                            <button class="Cabin__btn">
-                                               <a href="#" class="Cabin__link">Предбронь</a> 
+                                        <div class="Cabin__btn-container ">
+                                            <button class="Cabin__btn popupLink">
+                                               <a href="#popup" class="Cabin__link">Предбронь</a> 
                                             </button>
                                         </div>
                                     </div>
@@ -1354,9 +1359,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="Cabin__btn-container">
-                                            <button class="Cabin__btn">
-                                               <a href="#" class="Cabin__link">Предбронь</a> 
+                                        <div class="Cabin__btn-container ">
+                                            <button class="Cabin__btn popupLink">
+                                               <a href="#popup" class="Cabin__link">Предбронь</a> 
                                             </button>
                                         </div>
                                     </div>
@@ -1474,8 +1479,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="allRghtCol__btn-container">
-                                                    <button class="allRghtCol__btn GlobalButton">
-                                                        <a href="#" class="allRghtCol__link">
+                                                    <button class="allRghtCol__btn GlobalButton popupLink">
+                                                        <a href="#popup" class="allRghtCol__link">
                                                             Оставить заявку
                                                         </a>
                                                     </button>
@@ -1784,8 +1789,8 @@
                                 </div>
                             </div>
                             <div class="linerAdvertaising__btnCyst">
-                                <button class="linerAdvertaising__btn  GlobalButton">
-                                    <a href="#" class="linerAdvertaising__btnLink">
+                                <button class="linerAdvertaising__btn  GlobalButton popupLink">
+                                    <a href="#popup" class="linerAdvertaising__btnLink">
                                         Забронировать тур
                                     </a>
                                 </button>
@@ -2092,8 +2097,8 @@
                                         Забронируйте тур сейчас и получите яркие воспоминания.
                                     </h3>
                                     <div class="reviews__btnCyst">
-                                        <button class="reviews__btn  GlobalButton">
-                                            <a href="#" class="reviews__btnLink">
+                                        <button class="reviews__btn  GlobalButton popupLink">
+                                            <a href="#popup" class="reviews__btnLink">
                                                 Забронировать тур
                                             </a>
                                         </button>
@@ -2104,8 +2109,49 @@
                     </div>
                 </div>
             </main>
+            <div id="popup" class="popup lockPadding ">
+                <div class="popup__body ">
+                    <form  action="#" id="form" class="popup__content">
+                        <h4 class="popup__caption">
+                            Оставте заявку и наш специалист свяжется с Вами для обсждения деталей
+                        </h4>
+                        <div class="popup__item">
+                            <label for="formName" class="popup__label">Имя*</label>
+                            <div class="popup__inputCyst">
+                                <input id="formName" type="text" name="name" class="popup__input __req">
+                            </div>
+                        </div>
+                        <div class="popup__item">
+                            <label for="formPhone" class="popup__label">Телефон*</label>
+                            <div class="popup__inputCyst">
+                                <input id="formPhone" type="text" name="number" placeholder="+7 ( . . . ) . . .   . .   . ." class="popup__input __req">
+                            </div>
+                        </div>
+                        <div class="popup__item">
+                            <label for="formEmail" class="popup__label">E-mail</label>
+                            <div class="popup__inputCyst">
+                                <input id="formEmail" type="text" name="email" class="popup__input">
+                            </div>
+                        </div>
+                        <div class="popup__btnCyst">
+                            <button class="popup__btn  GlobalButton">
+                                <a href="#" class="popup__btnLink">
+                                    Отправить
+                                </a>
+                            </button>
+                        </div>
+                        <div class="popup__closer closePopup">
+                            <span class="popup__span"></span>
+                            <span class="popup__span1"></span>
+                            <span class="popup__span2"></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
     </div>
-    <script src="js/pdf.js"></script>
+    <script src="js/hugeStructure.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/pdf.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 </html>

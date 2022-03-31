@@ -1,5 +1,9 @@
+:root {
+  --mar:120%;
+}
+
 .wrapper {
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -14,19 +18,20 @@
 .header__background {
   position: absolute;
   display: flex;
-  justify-content: space-between;
   max-height: 800px;
   z-index: 1;
+  width: 100%;
 }
 
 .backgr__big {
   position: relative;
+  flex: 0 1 auto;
 }
 
 .backgr__tower {
   height: 800px;
-  width: 800px;
-  flex: 1 1 auto;
+  min-width: 800px;
+  flex: 1 1 55%;
   position: relative;
   background-image: url(../img/hugeTower.png);
   display: flex;
@@ -186,8 +191,12 @@
 }
 
 .backgr__tiny {
+  min-height: 800px;
   background-image: url(../img/tallPicture.png);
-  width: 200px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-y: -250px;
+  flex: 1 1 13%;
 }
 
 .backgr__camel {
@@ -195,11 +204,11 @@
 }
 
 .backgr__bigBand {
-  width: 338px;
   background-color: #0061BF;
   display: flex;
   justify-content: center;
   position: relative;
+  flex: 1 1 25%;
 }
 
 .bigBand__list {
@@ -219,6 +228,11 @@
   height: 10px;
   margin-top: 5px;
   margin-right: 10px;
+  transition: all 0.8s ease 0.3s;
+  -webkit-transition: all 0.8s ease 0.3s;
+  -moz-transition: all 0.8s ease 0.3s;
+  -ms-transition: all 0.8s ease 0.3s;
+  -o-transition: all 0.8s ease 0.3s;
 }
 
 .bigBand__item {
@@ -236,8 +250,15 @@
   color: #F4F4F4;
 }
 
+.bigBand__itemLink:hover {
+  text-decoration: underline;
+}
+.bigBand__itemLink:hover::before {
+  background-color: #000000;
+}
+
 .backgr__tinyBand {
-  width: 100px;
+  flex: 1 1 7%;
   background-color: #0061BF;
   position: relative;
   z-index: 4;
@@ -495,6 +516,7 @@
   position: absolute;
   z-index: 3;
   margin-top: -608px;
+  margin-left: -100px;
 }
 
 .leftCards__item {
@@ -1194,11 +1216,11 @@
 }
 
 .rightPattern {
-  transform: translate(300px, 300px);
-  -webkit-transform: translate(1229px, 628px);
-  -moz-transform: translate(300px, 300px);
-  -ms-transform: translate(300px, 300px);
-  -o-transform: translate(300px, 300px);
+  transform: translateY(155%) translateX(590px);
+  -webkit-transform: translateY(155%) translateX(590px);
+  -moz-transform: translateY(155%) translateX(590px);
+  -ms-transform: translateY(155%) translateX(590px);
+  -o-transform: translateY(155%) translateX(590px);
 }
 
 .rightPattern__firstChild {
@@ -1206,11 +1228,11 @@
 }
 
 .backgr__rightPatternSecondChild {
-  transform: translate(300px, 300px);
-  -webkit-transform: translate(611px, 326px);
-  -moz-transform: translate(300px, 300px);
-  -ms-transform: translate(300px, 300px);
-  -o-transform: translate(300px, 300px);
+  transform: translateY(160%) translateX(680px);
+  -webkit-transform: translateY(160%) translateX(680px);
+  -moz-transform: translateY(160%) translateX(680px);
+  -ms-transform: translateY(160%) translateX(680px);
+  -o-transform: translateY(160%) translateX(680px);
 }
 
 /*------------------------------------------(Table left List )--------------------------------------------*/
@@ -1399,15 +1421,25 @@
   color: #353535;
 }
 
-.Pdf__input {
-  border: 1px solid #0061BF;
-  box-sizing: border-box;
+.Pdf__inputContainer {
   flex: 1 1 auto;
+  border: 1px solid #0061BF;
   max-width: 360px;
+  display: flex;
+}
+
+.Pdf__input {
+  flex: 1 1 auto;
+  padding: 5px 10px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #353535;
 }
 
 .Pdf__input::placeholder {
-  padding: 18px 37px;
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: bold;
@@ -1415,6 +1447,7 @@
   line-height: 25px;
   color: #353535;
   opacity: 0.6;
+  padding-left: 30px;
 }
 
 .Pdf__btn {
