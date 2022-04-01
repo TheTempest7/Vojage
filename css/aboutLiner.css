@@ -2,6 +2,29 @@
   margin-top: 130px;
 }
 
+.aboutLiner__header {
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.aboutLiner__header.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+}
+
 .aboutLiner__header-body {
   display: flex;
   align-items: center;
@@ -87,6 +110,26 @@
 
 .aboutLiner__image-container {
   flex: 1 1 360px;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.aboutLiner__image-container.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .aboutLiner__cards {
@@ -97,6 +140,42 @@
 
 .linerCards__item {
   position: relative;
+  opacity: 0;
+  transition: all 1s ease 0.1s;
+  -webkit-transition: all 1s ease 0.1s;
+  -moz-transition: all 1s ease 0.1s;
+  -ms-transition: all 1s ease 0.1s;
+  -o-transition: all 1s ease 0.1s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.linerCards__item:nth-child(2) {
+  transition: all 1s ease 0.3s;
+  -webkit-transition: all 1s ease 0.3s;
+  -moz-transition: all 1s ease 0.3s;
+  -ms-transition: all 1s ease 0.3s;
+  -o-transition: all 1s ease 0.3s;
+}
+
+.linerCards__item:nth-child(3) {
+  transition: all 1s ease 0.5s;
+  -webkit-transition: all 1s ease 0.5s;
+  -moz-transition: all 1s ease 0.5s;
+  -ms-transition: all 1s ease 0.5s;
+  -o-transition: all 1s ease 0.5s;
+}
+
+.linerCards__item.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .linerCards__item:not(:first-child) {
@@ -254,6 +333,26 @@
 
 .aboutLiner__awayColumn {
   flex: 1 1 260px;
+  opacity: 0;
+  transition: all 1s ease 0.5s;
+  -webkit-transition: all 1s ease 0.6s;
+  -moz-transition: all 1s ease 0.5s;
+  -ms-transition: all 1s ease 0.5s;
+  -o-transition: all 1s ease 0.5s;
+  transform: translateX(900px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(900px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(900px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(900px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(900px) rotate3d(1, 1, 1, 45deg);
+}
+
+.aboutLiner__awayColumn.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .lineAwayColum__body {

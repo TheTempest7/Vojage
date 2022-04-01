@@ -1,5 +1,24 @@
 .main__linerVideo {
     margin-top: 50px;
+    opacity: 0;
+    transition: all 1s ease 0.2s;
+    -webkit-transition: all 1s ease 0.2s;
+    -moz-transition: all 1s ease 0.2s;
+    -ms-transition: all 1s ease 0.2s;
+    -o-transition: all 1s ease 0.2s;
+    transform:translateX(-300px)  ;
+    -webkit-transform:translateX(-300px)  ;
+    -moz-transform:translateX(-300px)  ;
+    -ms-transform:translateX(-300px)  ;
+    -o-transform:translateX(-300px)  ;
+}
+.main__linerVideo.activated{
+    opacity: 1;
+    transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
 }
 .linerVideo {
 }

@@ -2,6 +2,29 @@
   margin-top: 130px;
 }
 
+.coordinator__header {
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.coordinator__header.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+}
+
 .coordinator__header-body {
   display: flex;
   flex-wrap: wrap;
@@ -100,6 +123,26 @@
   border-top: 1px solid #FFC614;
   border-right: 1px solid #FFC614;
   position: relative;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.coordDown__leftPart.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .coordDown__img {
@@ -179,7 +222,7 @@
 }
 
 .coordDown__whiteSpac {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   position: absolute;
   z-index: 10;
   width: 10px;
@@ -207,6 +250,26 @@
   font-size: 18px;
   line-height: 133.3333333333%;
   color: #353535;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.coordDown__caption.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .coordDown__subCaption {
@@ -217,6 +280,26 @@
   font-size: 16px;
   line-height: 125%;
   color: #353535;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.coordDown__subCaption.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .coordDown__text {
@@ -227,6 +310,26 @@
   font-size: 16px;
   line-height: 125%;
   color: #353535;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.coordDown__text.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .coordDown__bottomTextStructure {
@@ -289,6 +392,45 @@
 .coordDown__numberContainer-body {
   display: flex;
   justify-content: space-between;
+}
+
+.coordDown__numItem {
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.coordDown__numItem:nth-child(2) {
+  transition: all 1s ease 0.1s;
+  -webkit-transition: all 1s ease 0.1s;
+  -moz-transition: all 1s ease 0.1s;
+  -ms-transition: all 1s ease 0.1s;
+  -o-transition: all 1s ease 0.1s;
+}
+
+.coordDown__numItem:nth-child(3) {
+  transition: all 1s ease 0.2s;
+  -webkit-transition: all 1s ease 0.2s;
+  -moz-transition: all 1s ease 0.2s;
+  -ms-transition: all 1s ease 0.2s;
+  -o-transition: all 1s ease 0.2s;
+}
+
+.coordDown__numItem.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .coordDown__numText {

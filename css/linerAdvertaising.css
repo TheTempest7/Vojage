@@ -20,18 +20,80 @@
 
 .linerDistingue__firstColumnChild {
   flex: 1 1 auto;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.linerDistingue__firstColumnChild.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .linerDistingue__firstColumnChild:nth-child(2) {
   margin-top: 40px;
+  transition: all 1s ease 0.2s;
+  -webkit-transition: all 1s ease 0.2s;
+  -moz-transition: all 1s ease 0.2s;
+  -ms-transition: all 1s ease 0.2s;
+  -o-transition: all 1s ease 0.2s;
 }
 
 .linerDistingue__secondPicColumn {
   flex: 1 1 50%;
 }
 
+.linerDistingue__secondColumnChild {
+  opacity: 0;
+  transition: all 1s ease 0.1s;
+  -webkit-transition: all 1s ease 0.1s;
+  -moz-transition: all 1s ease 0.1s;
+  -ms-transition: all 1s ease 0.1s;
+  -o-transition: all 1s ease 0.1s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.linerDistingue__secondColumnChild.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+}
+
 .linerDistingue__secondColumnChild:nth-child(2) {
   margin-top: 40px;
+  transition: all 1s ease 0.3s;
+  -webkit-transition: all 1s ease 0.3s;
+  -moz-transition: all 1s ease 0.3s;
+  -ms-transition: all 1s ease 0.3s;
+  -o-transition: all 1s ease 0.3s;
+}
+
+.linerItalicStyle__secondColumnChild.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .linerDistingue__rightSide {
@@ -39,6 +101,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  transition: all 1s ease 0.3s;
+  -webkit-transition: all 1s ease 0.3s;
+  -moz-transition: all 1s ease 0.3s;
+  -ms-transition: all 1s ease 0.3s;
+  -o-transition: all 1s ease 0.3s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.linerDistingue__rightSide.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .linDistinRghtSide__body {
@@ -70,6 +152,52 @@
 .linerDistingue__patterns {
   position: absolute;
   z-index: -1;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translate(1300px, -200px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translate(1300px, -200px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translate(1300px, -200px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translate(1300px, -200px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translate(1300px, -200px) rotate3d(1, 1, 1, 45deg);
+}
+
+.linerDistingue__patterns.moveItem .linerDistinguePatterns__rightPattern {
+  transition: all 1s ease 0s;
+  width: 440px;
+  height: 440px;
+  transform: translate(-50px, 0px);
+  -webkit-transform: translate(-50px, 0px);
+  -moz-transform: translate(-50px, 0px);
+  -ms-transform: translate(-50px, 0px);
+  -o-transform: translate(-50px, 0px);
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+}
+.linerDistingue__patterns.moveItem .linerDistinguePatterns__rightPattern .linerDistinguePatterns__firstChild {
+  width: 372px;
+  height: 372px;
+}
+.linerDistingue__patterns.moveItem .linerDistinguePatterns__rightPattern .linerDistinguePatterns__firstChild .linerDistinguePatterns__SecondChild {
+  width: 270px;
+  height: 270px;
+}
+.linerDistingue__patterns.moveItem .linerDistinguePatterns__rightPattern .linerDistinguePatterns__firstChild .linerDistinguePatterns__SecondChild .linerDistinguePatterns__thirdChild {
+  width: 168px;
+  height: 168px;
+}
+.linerDistingue__patterns.moveItem .linerDistinguePatterns__rightPattern .linerDistinguePatterns__firstChild .linerDistinguePatterns__SecondChild .linerDistinguePatterns__thirdChild .linerDistinguePatterns__fourth {
+  width: 164px;
+  height: 164px;
+}
+
+.linerDistingue__patterns.activated {
+  opacity: 1;
   transform: translate(30px, 30px);
   -webkit-transform: translate(452px, -142px);
   -moz-transform: translate(30px, 30px);
@@ -80,11 +208,13 @@
 .linerDistinguePatterns__rightPattern {
   width: 340px;
   height: 340px;
+  transition: all 1s ease 0s;
 }
 
 .linerDistinguePatterns__firstChild {
   width: 272px;
   height: 272px;
+  transition: all 1s ease 0s;
 }
 
 .linerDistinguePatterns__SecondChild {
@@ -92,22 +222,44 @@
   height: 170px;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: unset;
+  transition: all 1s ease 0s;
 }
 
 .linerDistinguePatterns__thirdChild {
   width: 68px;
   height: 68px;
+  transition: all 1s ease 0s;
 }
 
 .linerDistinguePatterns__fourth {
   width: 64px;
   height: 64px;
+  transition: all 1s ease 0s;
 }
 
 /*-----------------------------------------------------( subpattern of  firstDisignStructure)------------------------------------*/
 .linerDistingue__originDisign {
   position: absolute;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.linerDistingue__originDisign.activated {
   opacity: 0.3;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .linerOriginDisign__firstChild::before {
@@ -212,6 +364,26 @@
   justify-content: center;
   flex: 1 1 50%;
   align-items: center;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+}
+
+.linerItalicStyle__leftSide.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .linItaliStyleLftSide__body {
@@ -253,8 +425,35 @@
   justify-content: space-between;
 }
 
+.linerItalicStyle__firstColumnChild {
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.linerItalicStyle__firstColumnChild.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+}
+
 .linerItalicStyle__secondColumnChild:nth-child(2) {
   margin-top: 40px;
+  transition: all 1s ease 0.2s;
+  -webkit-transition: all 1s ease 0.2s;
+  -moz-transition: all 1s ease 0.2s;
+  -ms-transition: all 1s ease 0.2s;
+  -o-transition: all 1s ease 0.2s;
 }
 
 .linerItalicStyle__secondPicColumn {
@@ -262,6 +461,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.linerItalicStyle__secondColumnChild {
+  transition: all 1s ease 0.1s;
+  -webkit-transition: all 1s ease 0.1s;
+  -moz-transition: all 1s ease 0.1s;
+  -ms-transition: all 1s ease 0.1s;
+  -o-transition: all 1s ease 0.1s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
 }
 
 /*-----------------------------------------------------(delicious)------------------------------------*/
@@ -273,21 +485,72 @@
 .linerDistingue3__patterns {
   position: absolute;
   z-index: -1;
-  transform: translate(600px, -200px);
-  -webkit-transform: translate(1032px, -200px);
-  -moz-transform: translate(600px, -200px);
-  -ms-transform: translate(600px, -200px);
-  -o-transform: translate(600px, -200px);
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translate(1333px, -200px);
+  -webkit-transform: translate(1333px, -200px);
+  -moz-transform: translate(1333px, -200px);
+  -ms-transform: translate(1333px, -200px);
+  -o-transform: translate(1333px, -200px);
+}
+
+.linerDistingue3__patterns.moveItem .linerDistingue3__rightPattern {
+  width: 440px;
+  height: 440px;
+  transform: translate(0px, -50px);
+  -webkit-transform: translate(0px, -50px);
+  -moz-transform: translate(0px, -50px);
+  -ms-transform: translate(0px, -50px);
+  -o-transform: translate(0px, -50px);
+}
+.linerDistingue3__patterns.moveItem .linerDistingue3__rightPattern .linerDistingue3__firstChild {
+  width: 372px;
+  height: 372px;
+}
+.linerDistingue3__patterns.moveItem .linerDistingue3__rightPattern .linerDistingue3__firstChild .linerDistingue3__SecondChild {
+  width: 270px;
+  height: 270px;
+}
+.linerDistingue3__patterns.moveItem .linerDistingue3__rightPattern .linerDistingue3__firstChild .linerDistingue3__SecondChild .linerDistingue3__thirdChild {
+  width: 168px;
+  height: 168px;
+}
+.linerDistingue3__patterns.moveItem .linerDistingue3__rightPattern .linerDistingue3__firstChild .linerDistingue3__SecondChild .linerDistingue3__thirdChild .linerDistingue3__fourth {
+  width: 164px;
+  height: 164px;
+}
+
+.linerDistingue3__patterns.activated {
+  opacity: 1;
+  transform: translate(1033px, -200px);
+  -webkit-transform: translate(1033px, -200px);
+  -moz-transform: translate(1033px, -200px);
+  -ms-transform: translate(1033px, -200px);
+  -o-transform: translate(1033px, -200px);
 }
 
 .linerDistingue3__rightPattern {
   width: 340px;
   height: 340px;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
 }
 
 .linerDistingue3__firstChild {
   width: 272px;
   height: 272px;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
 }
 
 .linerDistingue3__SecondChild {
@@ -295,21 +558,50 @@
   height: 170px;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: unset;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
 }
 
 .linerDistingue3__thirdChild {
   width: 68px;
   height: 68px;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
 }
 
 .linerDistingue3__fourth {
   width: 64px;
   height: 64px;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
 }
 
 /*-----------------------------------------------------( subPattren of the  secondDisignStructure)------------------------------------*/
 .linerDistingue3__originDisign {
   position: absolute;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translate(900px, -300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translate(900px, -300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translate(900px, -300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translate(900px, -300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translate(900px, -300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.linerDistingue3__originDisign.activated {
   transform: translate(100px, -300px);
   -webkit-transform: translate(100px, -300px);
   -moz-transform: translate(100px, -300px);
@@ -369,6 +661,26 @@
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+}
+
+.linerAdvertaising__btnCyst.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .linerAdvertaising__btn {

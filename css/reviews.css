@@ -2,6 +2,29 @@
   margin-top: 130px;
 }
 
+.reviews__header {
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(-300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.reviews__header.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+}
+
 .reviews__header-body {
   display: flex;
   flex-wrap: wrap;
@@ -101,7 +124,43 @@
   padding: 0px 10px;
   border: 1px solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(to top left, #fffde1, #FFC614);
+  border-image-source: linear-gradient(to top left, rgb(255, 253, 225), #FFC614);
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.reviews__item:nth-child(2) {
+  transition: all 1s ease 0.2s;
+  -webkit-transition: all 1s ease 0.2s;
+  -moz-transition: all 1s ease 0.2s;
+  -ms-transition: all 1s ease 0.2s;
+  -o-transition: all 1s ease 0.2s;
+}
+
+.reviews__item:nth-child(3) {
+  transition: all 1s ease 0.4s;
+  -webkit-transition: all 1s ease 0.4s;
+  -moz-transition: all 1s ease 0.4s;
+  -ms-transition: all 1s ease 0.4s;
+  -o-transition: all 1s ease 0.4s;
+}
+
+.reviews__item.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .reviews__item-body {
@@ -397,6 +456,26 @@
   color: #353535;
   display: flex;
   justify-content: center;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.reviews__bottom-header.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .reviews__btnCyst {
@@ -404,6 +483,26 @@
   margin-bottom: 156px;
   display: flex;
   justify-content: center;
+  opacity: 0;
+  transition: all 1s ease 0.2s;
+  -webkit-transition: all 1s ease 0.2s;
+  -moz-transition: all 1s ease 0.2s;
+  -ms-transition: all 1s ease 0.2s;
+  -o-transition: all 1s ease 0.2s;
+  transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -webkit-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -moz-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -ms-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+  -o-transform: translateX(300px) rotate3d(1, 1, 1, 45deg);
+}
+
+.reviews__btnCyst.activated {
+  opacity: 1;
+  transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -webkit-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -moz-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -ms-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
+  -o-transform: translateX(0px) rotate3d(1, 1, 1, 0deg);
 }
 
 .reviews__btn {

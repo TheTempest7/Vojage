@@ -11,6 +11,25 @@
 .Cabin__body {
 }
 .Cabin__header {
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -webkit-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -moz-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -ms-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -o-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+}
+.Cabin__header.activated{
+  opacity: 1;
+  transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+  -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+  -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+  -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+  -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
 }
 .Cabin__header-body {
 display: flex;
@@ -110,7 +129,52 @@ margin-left: 50px;
 .Cabin__item {
   flex: 0 1 33.3333%;
   position: relative;
-z-index: 3;
+  z-index: 3;
+  opacity: 0;
+  transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -webkit-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -moz-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -ms-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -o-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+}
+.Cabin__item.activated:nth-child(1){
+  opacity: 1;
+  transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -o-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+}
+.Cabin__item.activated:nth-child(2){
+  opacity: 1;
+  transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -o-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  transition: all 1s ease 0.2s;
+  -webkit-transition: all 1s ease 0.2s;
+  -moz-transition: all 1s ease 0.2s;
+  -ms-transition: all 1s ease 0.2s;
+  -o-transition: all 1s ease 0.2s;
+}
+.Cabin__item.activated:nth-child(3){
+  opacity: 1;
+  transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  -o-transform:translateX(0px)  rotate3d(1,1,1,0deg);
+  transition: all 1s ease 0.4s;
+  -webkit-transition: all 1s ease 0.4s;
+  -moz-transition: all 1s ease 0.4s;
+  -ms-transition: all 1s ease 0.4s;
+  -o-transition: all 1s ease 0.4s;
 }
 .Cabin__item-body {
 border: 1px solid #FFC614;
@@ -451,7 +515,27 @@ border-image-slice: 1;
 .Cabin__footer {
   max-width: 460px;
   margin-top: 30px;
+  opacity: 0;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -ms-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+  transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -webkit-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -moz-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -ms-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+  -o-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
   }
+
+.Cabin__footer.activated{
+  opacity: 1;
+  transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+  -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+  -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+  -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+  -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+}
 .Cabin__footerText {
 font-family: 'Source Sans Pro';
 font-style: normal;

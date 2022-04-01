@@ -10,7 +10,27 @@
 .coordinator__body {
 }
 .coordinator__header {
+    opacity: 0;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+    -webkit-transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+    -moz-transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+    -ms-transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+    -o-transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
 }
+.coordinator__header.activated {
+    opacity: 1;
+    transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+}
+
 .coordinator__header-body {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +132,26 @@ color: #353535;
     border-top: 1px solid #FFC614;
     border-right: 1px solid #FFC614;
     position: relative;
+    opacity: 0;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+    -webkit-transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+    -moz-transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+    -ms-transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+    -o-transform:translateX(-300px)  rotate3d(1,1,1,45deg) ;
+}
+
+.coordDown__leftPart.activated{
+    opacity: 1;
+    transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
 }
 .coordDown__leftPart-body {
 
@@ -218,6 +258,26 @@ font-weight: 700;
 font-size: 18px;
 line-height: calc(24/18)*100%;
 color: #353535;
+opacity: 0;
+transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-ms-transition: all 1s ease 0s;
+-o-transition: all 1s ease 0s;
+transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-webkit-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-moz-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-ms-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-o-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+}
+
+.coordDown__caption.activated{
+    opacity: 1;
+    transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
 }
 .coordDown__subCaption {
     margin-top: 10px;
@@ -227,15 +287,53 @@ font-weight: 700;
 font-size: 16px;
 line-height: calc(20/16)*100%;
 color: #353535;
+opacity: 0;
+transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-ms-transition: all 1s ease 0s;
+-o-transition: all 1s ease 0s;
+transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-webkit-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-moz-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-ms-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-o-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+}
+.coordDown__subCaption.activated{
+    opacity: 1;
+    transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
 }
 .coordDown__text {
-    margin-top: 20px;
-    font-family: 'Source Sans Pro';
+margin-top: 20px;
+font-family: 'Source Sans Pro';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: calc(20/16)*100%;
 color: #353535;
+opacity: 0;
+transition: all 1s ease 0s;
+-webkit-transition: all 1s ease 0s;
+-moz-transition: all 1s ease 0s;
+-ms-transition: all 1s ease 0s;
+-o-transition: all 1s ease 0s;
+transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-webkit-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-moz-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-ms-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+-o-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+}
+.coordDown__text.activated{
+    opacity: 1;
+    transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
 }
 .coordDown__bottomTextStructure {
     display: flex;
@@ -293,6 +391,39 @@ color: #353535;
     justify-content: space-between;
 }
 .coordDown__numItem {
+    opacity: 0;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -ms-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+    -webkit-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+    -moz-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+    -ms-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+    -o-transform:translateX(300px)  rotate3d(1,1,1,45deg) ;
+}
+.coordDown__numItem:nth-child(2){
+    transition: all 1s ease 0.1s;
+    -webkit-transition: all 1s ease 0.1s;
+    -moz-transition: all 1s ease 0.1s;
+    -ms-transition: all 1s ease 0.1s;
+    -o-transition: all 1s ease 0.1s;
+}
+.coordDown__numItem:nth-child(3){
+    transition: all 1s ease 0.2s;
+    -webkit-transition: all 1s ease 0.2s;
+    -moz-transition: all 1s ease 0.2s;
+    -ms-transition: all 1s ease 0.2s;
+    -o-transition: all 1s ease 0.2s;
+}
+.coordDown__numItem.activated{
+    opacity: 1;
+    transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -webkit-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+    -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
 }
 .coordDown__numItem-body {
 }
