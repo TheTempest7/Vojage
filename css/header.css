@@ -211,7 +211,7 @@
 }
 
 .backgr__tiny {
-  min-height: 800px;
+  height: 800px;
   background-image: url(../img/tallPicture.png);
   background-repeat: no-repeat;
   background-size: 100% auto;

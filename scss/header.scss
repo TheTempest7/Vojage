@@ -203,11 +203,11 @@ position: relative;
     }}
 
 .backgr__tiny {
-    min-height: 800px;
+    height: 800px;
     background-image: url(../img/tallPicture.png);
     background-repeat:no-repeat ;
     background-size: 100% auto;
-    background-position-y:-250px ;
+    background-position-y:-250px;
     flex: 1 1 13%;
     transition: all 1s ease 0.5s;
     -webkit-transition: all 1s ease 0.5s;
