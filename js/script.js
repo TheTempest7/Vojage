@@ -1,12 +1,16 @@
 let listPart = document.querySelectorAll('.leftList__arrow');
-console.log(listPart);
+
 let explPart=document.getElementsByClassName('Explanation__item');
-console.log(explPart);
+
 const elemNumbers={};
 
 
 
 function Disconnection(e){
+    let listPart = document.querySelectorAll('.leftList__arrow');
+
+    let explPart=document.getElementsByClassName('Explanation__item');
+
     let range=e.target.parentNode.parentNode.parentNode.classList;
     console.log( range[1]);
     let thatNumber= +(e.target.id);

@@ -1,6 +1,5 @@
 function fisrt(){
     let firstStructure= document.querySelector('.linerDistingue__patterns');
-    console.log(firstStructure);
     let expand =setInterval(function(){
         firstStructure.classList.add('moveItem');
     },5000)
@@ -17,7 +16,6 @@ fisrt();
 
 function second(){
     let secondStructure= document.querySelector('.linerDistingue3__patterns');
-    console.log(secondStructure);
     let expandSecond =setInterval(function(){
         secondStructure.classList.add('moveItem');
     },5000)

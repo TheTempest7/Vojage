@@ -115,10 +115,11 @@
 
 .Cabin__main-body {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .Cabin__item {
-  flex: 0 1 33.3333%;
+  flex: 1 1 33.3333%;
   position: relative;
   z-index: 3;
   opacity: 0;
