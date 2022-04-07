@@ -13,18 +13,20 @@ window.onload=function(){
 
     let hugeHieght=document.body.querySelector('.headBack__huge').offsetHeight;
     hugeHieght=hugeHieght-198.5;
+
     let sumTrans=hugeWidth+bigBanWidth+tinyWidth;
-    sumTrans=sumTrans-100;
-    let sumTrans2=sumTrans-500;
-    /*(next code discribe nav list position)*/
+    sumTrans=sumTrans-100;/*(next code discribe nav list position)*/
     if(wholeWidth>1080){
         centranlPartList.style.transform=`translateX(${blurPartOfHuge}px) translateY(${hugeHieght*0.4}px)`;
     }
     else  if((wholeWidth<1080)&&(wholeWidth>860)){
         centranlPartList.style.transform=`translateX(${blurPartOfHuge}px) translateY(${hugeHieght*0.7}px)`;
     }
-    else   if(wholeWidth<=860){
-        centranlPartList.style.transform=`translateX(${blurPartOfHuge*1.5}px) translateY(${hugeHieght*0.75}px)`
+    else   if((wholeWidth<=860)&&(wholeWidth>758)){
+        centranlPartList.style.transform=`translateX(${blurPartOfHuge*1.5}px) translateY(${hugeHieght*0.75}px)`;
+    }
+    else   if(wholeWidth<=758){ 
+        centranlPartList.style.transform=`translateX(${blurPartOfHuge*0.45}px) translateY(${hugeHieght*0.75}px)`;
     }
     else{
         centranlPartList.style.transform=`translateX(${blurPartOfHuge}px) translateY(${hugeHieght*0.4}px)`;
@@ -32,30 +34,29 @@ window.onload=function(){
     
     
     targetElem.style.transform=`translateX(${sumTrans}px) translateY(${hugeHieght}px)`;/* (elem with low z-index)*/
-    /*littleTargetElem.style.transform=`translateX(0px) translateY(0px);`;*/
 
-      /**-----(margin for main block)------- */
+
+    /**-----(margin for main block)------- */
 const mainBlock=document.body.querySelector('.main');
 
-if((wholeWidth<1440)&&(wholeWidth>1080)){
-mainBlock.style.marginTop=`${hugeHieght*0.35}px`
+    if((wholeWidth<1440)&&(wholeWidth>1080)){
+    mainBlock.style.marginTop=`${hugeHieght*0.35}px`
 }
-else if((wholeWidth<=1080)&&(wholeWidth>759)){
-    mainBlock.style.marginTop=`${hugeHieght*0.6}px`
-}
-else if((wholeWidth<=759)&&(wholeWidth>=570)){
-    mainBlock.style.marginTop=`${hugeHieght*0.8}px`
-}
-else if((wholeWidth<570)&&(wholeWidth>360)){
-    mainBlock.style.marginTop=`${hugeHieght*0.1}px`
-}
-else if(wholeWidth<=360){
-    mainBlock.style.marginTop=`${hugeHieght*0.4}px`
-}
-else if(wholeWidth>1440){
-    mainBlock.style.marginTop=`${hugeHieght*0.4}px`
-}
-
+    else if((wholeWidth<=1080)&&(wholeWidth>759)){
+        mainBlock.style.marginTop=`${hugeHieght*0.6}px`
+    }
+    else if((wholeWidth<=759)&&(wholeWidth>=570)){
+        mainBlock.style.marginTop=`${hugeHieght*0.8}px`
+    }
+    else if((wholeWidth<570)&&(wholeWidth>360)){
+        mainBlock.style.marginTop=`${hugeHieght*0.1}px`
+    }
+    else if(wholeWidth<=360){
+        mainBlock.style.marginTop=`${hugeHieght*0.4}px`
+    }
+    else if(wholeWidth>1440){
+        mainBlock.style.marginTop=`${hugeHieght*0.4}px`
+    }
     /**----(width and transform for route structure)---- */
     let alongLine=document.body.querySelector('.map__bigPartThirdChild');
     let rotateLine=document.body.querySelector('.map__bigPartFoursChild');  
@@ -74,12 +75,43 @@ else if(wholeWidth>1440){
         rotateLine.style.transform=`rotate(90deg) translateX(-134px) translateY(${-1161+differWholeWidth}px)`;
     }
     else if(wholeWidth<674){
+        console.log(1231234);
         let differWholeWidth=674-wholeWidth;
         let upLine=document.body.querySelector('.map__littlePartFirstChild');
         let downLine=document.body.querySelector('.map__bigPartFirstChild');
 
-        upLine.style.width=`${229-differWholeWidth}px`;
-        downLine.style.width=`${156-differWholeWidth}px`;
+        /**(next code seeking parties of tracery and translating them) */
+        /**(up part with lower quantity of details) */
+        let secondSmall=document.body.querySelector('.map__littlePartSecondChild');
+        let thirdSmall=document.body.querySelector('.map__littlePartThirdChild');
+        let fourthSmall=document.body.querySelector('.map__littlePartFoursChild');
+        
+        secondSmall.style.transform=`rotate(90deg) translate(-211px, ${-936+differWholeWidth}px)`;
+        thirdSmall.style.transform=`translate(${952-differWholeWidth}px,-227px)`;
+        fourthSmall.style.transform=`translate(${995-differWholeWidth}px,-236px)`; 
+         /**(up part with lower quantity of details) */
+          /**(down part with biger quantity of details) */
+            let secondBig=document.body.querySelector('.map__bigPartSecondChild');
+            let thirdBig=document.body.querySelector('.map__bigPartThirdChild');
+            let fourthBig=document.body.querySelector('.map__bigPartFoursChild');
+            let fivthBig=document.body.querySelector('.map__bigPartFivthChild');
+            let sixthBig=document.body.querySelector('.map__bigPartSixthChild');
+
+
+            secondBig.style.transform=`rotate(90deg) translate(-98.5px, ${-833+differWholeWidth}px)`;
+            thirdBig.style.transform=`translate(${878.5-differWholeWidth}px, -145px)`;
+            fourthBig.style.transform=`rotate(90deg) translateX(-134px) translateY(${-1076.5+differWholeWidth}px)`;
+            fivthBig.style.transform=`rotate(90deg) translate(-166px, ${-981+differWholeWidth}px)`;
+            sixthBig.style.transform=`translate(${993-differWholeWidth}px, -207px)` ;
+
+
+
+           /**(down part with biger quantity of details) */  
+        /**(up code seeking parties of tracery and translating them) */
+
+        upLine.style.width=`${231-differWholeWidth}px`;
+        downLine.style.width=`${158-differWholeWidth}px`;
+        console.log('dsfsdf');
     }
 
     let smallAlongLine=document.body.querySelector('.map__lines');
@@ -90,7 +122,7 @@ else if(wholeWidth>1440){
     else if((wholeWidth<=758)){
         let upLine=document.body.querySelector('.map__littlePartFirstChild');
         let downLine=document.body.querySelector('.map__bigPartFirstChild');
-        
+        smallAlongLine.style.transform=`translateX(-471px) translateY(0px) rotate3d(1, 1, 1, 0deg)`;
     }
 }
 
