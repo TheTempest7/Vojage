@@ -50,16 +50,16 @@ max-width: 600px;
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 900;
-font-size: 36px;
-line-height: 48px;
+font-size: calc(20px + 16*(100vw/1440));
+line-height: calc(48/36)*100%;
 color: #0061BF;
 }
 .Cabin__subCaption {
 font-family: 'Source Sans Pro';
 font-style: normal;
 font-weight: 400;
-font-size: 22px;
-line-height: 28px;
+font-size: calc(13px + 9*(100vw/1440));
+line-height: calc(28/22)*100%;
 color: #353535;
 flex: 1 1 100%;
 margin-left: 50px;
@@ -545,6 +545,38 @@ font-size: 16px;
 line-height: 20px;
 color: #000000;
 }
+
+
+@media (max-width:1160px) {
+  .Cabin__item {
+    margin-right: 1px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .Cabin__item-body{
+    display: flex;
+    justify-content: center;
+  }
+  .CabContnt__body{
+    margin-right: 30px;
+  }
+  .Cabin__item:nth-child(3){
+    margin-top: 40px;
+    .Cabin__item-header{
+      transform: translate(-110px, -333px);
+      -webkit-transform: translate(-110px, -333px);
+      -moz-transform: translate(-110px, -333px);
+      -ms-transform: translate(-110px, -333px);
+      -o-transform: translate(-110px, -333px);
+}
+  }
+  .Cabin__footer {
+    margin: 30px auto;
+  }
+}
+
+
 
 
 

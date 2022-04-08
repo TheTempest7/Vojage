@@ -124,6 +124,22 @@ const mainBlock=document.body.querySelector('.main');
         let downLine=document.body.querySelector('.map__bigPartFirstChild');
         smallAlongLine.style.transform=`translateX(-471px) translateY(0px) rotate3d(1, 1, 1, 0deg)`;
     }
+
+       /**benefits huge stricture trasnform */
+       let bigRounds=document.body.querySelector('.BenePatterns__rightPattern');
+     
+    
+       if(wholeWidth<1115){
+           let beneItem=document.body.querySelector('.Benefits__item').offsetWidth; 
+           bigRounds.style.transform=`translate(${beneItem*2}px, -654px)` ;
+           bigRounds.addEventListener('mouseenter',()=>{
+               bigRounds.style.transform=`translate(${beneItem*2-50}px, -704px)` ;
+           })
+           bigRounds.addEventListener('mouseleave',()=>{
+               bigRounds.style.transform=`translate(${beneItem*2}px, -654px)` ;
+           })
+       }
+       /**benefits huge stricture trasnform */
 }
 
 
@@ -250,6 +266,26 @@ const mainBlock=document.body.querySelector('.main');
         let downLine=document.body.querySelector('.map__bigPartFirstChild');
         smallAlongLine.style.transform=`translateX(-471px) translateY(0px) rotate3d(1, 1, 1, 0deg)`;
     }
+
+
+
+
+
+    /**benefits huge stricture trasnform */
+    let bigRounds=document.body.querySelector('.BenePatterns__rightPattern');
+     
+    
+    if(wholeWidth<1115){
+        let beneItem=document.body.querySelector('.Benefits__item').offsetWidth; 
+        bigRounds.style.transform=`translate(${beneItem*2}px, -654px)` ;
+        bigRounds.addEventListener('mouseenter',()=>{
+            bigRounds.style.transform=`translate(${beneItem*2-50}px, -704px)` ;
+        })
+        bigRounds.addEventListener('mouseleave',()=>{
+            bigRounds.style.transform=`translate(${beneItem*2}px, -654px)` ;
+        })
+    }
+    /**benefits huge stricture trasnform */
 })
 
 

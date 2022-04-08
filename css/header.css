@@ -2164,6 +2164,22 @@
     max-width: 33%;
   }
 }
+@media (max-width: 540px) {
+  .TextPart__bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .TextPart__left {
+    margin-top: 10px;
+    order: 2;
+  }
+}
+@media (max-width: 440px) {
+  .Table__span {
+    font-size: 29px;
+  }
+}
 /*------------------------------------------(pdf )--------------------------------------------*/
 .Pdf__textcontainer {
   opacity: 0;
@@ -2272,7 +2288,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 125%;
   color: #353535;
 }
 
@@ -2281,7 +2297,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 125%;
   color: #353535;
   opacity: 0.6;
   padding-left: 30px;
@@ -2298,6 +2314,48 @@
   padding: 16px 66px;
 }
 
+@media (max-width: 1070px) {
+  .Pdf__body {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .Pdf__textcontainer.activated {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 72%;
+  }
+
+  .Pdf__textone {
+    text-align: center;
+  }
+
+  .Pdf__texttwo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 665px) {
+  .Pdf__inputContainer {
+    flex: 1 0 55%;
+    height: 40px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .Pdf__link {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 49%;
+  }
+}
+@media (max-width: 360px) {
+  .Pdf__input::placeholder {
+    font-size: 15px;
+    padding-left: 0px;
+    text-align: center;
+  }
+}
 /*------------------------------------------(benefits header )--------------------------------------------*/
 .main__benefits {
   margin-top: 130px;
@@ -2384,8 +2442,8 @@
   font-family: Playfair Display;
   font-style: normal;
   font-weight: 900;
-  font-size: 36px;
-  line-height: 48px;
+  font-size: calc(20px + 1.1111111111vw);
+  line-height: 133.3333333333%;
   color: #0061BF;
   display: flex;
   margin-left: 16px;
@@ -2395,8 +2453,8 @@
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: calc(13px + 0.625vw);
+  line-height: 127.2727272727%;
   color: #353535;
   flex: 1 1 100%;
   margin-left: 50px;
@@ -2837,4 +2895,80 @@
 
 .BenePatterns__SecondChild2 {
   background-color: #FFF;
+}
+
+@media (max-width: 1115px) {
+  .Benefits__main-body {
+    flex-wrap: wrap;
+  }
+
+  .Benefits__item {
+    flex: 0 0 40%;
+  }
+
+  .Benefits__item:first-child {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Benefits__item:nth-child(5) {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Benefits__item:nth-child(7) {
+    margin-top: 40px;
+  }
+
+  .midleBenefitsPattern {
+    display: none;
+  }
+
+  .evenBenefitsItem {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Benefits__pattern {
+    transform: translate(-86px, -23px);
+    -webkit-transform: translate(-86px, -23px);
+    -moz-transform: translate(-86px, -23px);
+    -ms-transform: translate(-86px, -23px);
+    -o-transform: translate(-86px, -23px);
+  }
+
+  /*
+  .BenePatterns__rightPattern.activated{
+      transform:  translate(830px, -654px);
+      -webkit-transform:  translate(830px, -654px);
+      -moz-transform:  translate(830px, -654px);
+      -ms-transform:  translate(830px, -654px);
+      -o-transform:  translate(830px, -654px);
+  }
+  .BenePatterns__rightPattern:hover{
+      transform: translate(780px,-704px);
+      -webkit-transform: translate(780px,-704px);
+      -moz-transform: translate(780px,-704px);
+      -ms-transform: translate(780px,-704px);
+      -o-transform: translate(780px,-704px);
+  }*/
+}
+@media (max-width: 680px) {
+  .Benefits__rightSidePattern {
+    display: none;
+  }
+
+  .Benefits__item {
+    flex: 1 1 50%;
+  }
+}
+@media (max-width: 570px) {
+  .Benefits__item {
+    flex: 1 1 100%;
+  }
+
+  .Benefits__item:nth-child(3) {
+    margin-top: 40px;
+  }
 }
