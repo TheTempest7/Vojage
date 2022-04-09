@@ -294,7 +294,7 @@ white-space: nowrap;
   flex-direction: column;
   justify-content: center;
 }
-.CabContnt__body img {max-width: 300px;
+.CabContnt__body img {width: 300px;
 }
 .CabContnt__characteristic {font-family: 'Source Sans Pro';
   font-style: normal;
@@ -564,17 +564,79 @@ color: #000000;
   .Cabin__item:nth-child(3){
     margin-top: 40px;
     .Cabin__item-header{
-      transform: translate(-110px, -333px);
-      -webkit-transform: translate(-110px, -333px);
-      -moz-transform: translate(-110px, -333px);
-      -ms-transform: translate(-110px, -333px);
-      -o-transform: translate(-110px, -333px);
+      transform: translate(-80px, -224px);
+      -webkit-transform: translate(-80px, -224px);
+      -moz-transform: translate(-80px, -224px);
+      -ms-transform: translate(-80px, -224px);
+      -o-transform: translate(-80px, -224px);
 }
+      .Cabin__item-body{
+        max-width: 100%;
+        width: 80%;
+      }
+      .Cabin__item-content{
+        width: 100%;
+      }
+      .CabContnt__Structure-body{
+        position: absolute;
+        transform:  translate(-15px, 218px);
+        -webkit-transform:  translate(-15px, 218px);
+        -moz-transform:  translate(-15px, 218px);
+        -ms-transform:  translate(-15px, 218px);
+        -o-transform:  translate(-15px, 218px);
+}
+      .CabContnt__body{
+        flex-wrap: wrap;
+        margin: 0px;
+        flex-direction:row;
+        margin: 20px 20px 0px 20px;
+      }
+      .CabContnt__compicatedStructure{
+        transform: translate(382.5px,45px);
+        -webkit-transform: translate(382.5px,45px);
+        -moz-transform: translate(382.5px,45px);
+        -ms-transform: translate(382.5px,45px);
+        -o-transform: translate(382.5px,45px);
+}
+      .CabContnt__characteristic{
+        margin: 0px;
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .CabContnt__image-containe{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+      }
+      .CabContnt__image{
+        margin: 0px;
+      }
+      .CabContnt__underImage {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 50%;
+      }
+      .underImage__secondColumn{
+        padding-left: 10px;
+      }
+      .Cabin__footer {
+        margin: 30px auto;
+        flex: 1 1 50%;
+      }
+      .CabContnt__footer{
+        flex: 1 1 50%;
+      }
   }
-  .Cabin__footer {
-    margin: 30px auto;
+  .Cabin__item:nth-child(1){
+  margin-right: 20px;
   }
 }
+
 
 
 
