@@ -140,6 +140,23 @@ const mainBlock=document.body.querySelector('.main');
            })
        }
        /**benefits huge stricture trasnform */
+
+       /**
+      transform for five rounds structure in Cabin item (in last point )
+     */
+      let roundZoom=document.body.querySelector('.CabContnt__compicatedStructureThird');
+      let transUnitForRoundZoom=document.body.querySelector('.CabContnt__footerThird').offsetWidth; 
+    if((wholeWidth<1161)&&(wholeWidth>772)){
+        
+        
+        console.log(transUnitForRoundZoom);
+        console.log(roundZoom);
+
+        roundZoom.style.transform=`translate(${transUnitForRoundZoom-20}px, 45px)`;
+    }
+       /**
+      transform for five rounds structure in Cabin item (in last point )
+     */
 }
 
 
@@ -286,6 +303,24 @@ const mainBlock=document.body.querySelector('.main');
         })
     }
     /**benefits huge stricture trasnform */
+
+
+    /**
+      transform for five rounds structure in Cabin item (in last point )
+     */
+      let roundZoom=document.body.querySelector('.CabContnt__compicatedStructureThird');
+      let transUnitForRoundZoom=document.body.querySelector('.CabContnt__footerThird').offsetWidth; 
+    if((wholeWidth<1161)&&(wholeWidth>772)){
+        
+        
+        console.log(transUnitForRoundZoom);
+        console.log(roundZoom);
+
+        roundZoom.style.transform=`translate(${transUnitForRoundZoom-20}px, 45px)`;
+    }
+       /**
+      transform for five rounds structure in Cabin item (in last point )
+     */
 })
 
 
