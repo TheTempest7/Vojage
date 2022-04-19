@@ -87,8 +87,8 @@
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 900;
-  font-size: 38px;
-  line-height: 51px;
+  font-size: calc(20px + 1.1111111111vw);
+  line-height: 133.3333333333%;
   color: #353535;
 }
 
@@ -97,8 +97,8 @@
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: calc(13px + 0.625vw);
+  line-height: 127.2727272727%;
   color: #353535;
   margin-top: 10px;
 }
@@ -373,6 +373,9 @@
 
 .lineAwayColum__item::before {
   content: "";
+  position: relative;
+  left: 5px;
+  top: 5px;
   flex: 0 0 15px;
   display: block;
   width: 15px;
@@ -444,4 +447,94 @@
   width: 260px;
   height: 1px;
   background-color: #0061BF;
+}
+
+@media (max-width: 1050px) {
+  .linerCards__rightSideStructure {
+    display: none;
+  }
+
+  .linerCards__rightSideStructure {
+    padding-left: 10px;
+  }
+
+  .linerCards__body {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 960px) {
+  .aboutLiner__downside-body {
+    flex-wrap: wrap;
+  }
+
+  .aboutLiner__image-container {
+    flex: 1 0 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .aboutLiner__img {
+    width: 460px;
+  }
+
+  .aboutLiner__header-body {
+    justify-content: center;
+  }
+
+  .aboutLiner__cards {
+    flex: 1 1 50%;
+    margin-bottom: 40px;
+  }
+
+  .aboutLiner__awayColumn {
+    flex: 1 1 51%;
+  }
+
+  .lineAwayColum__body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lineAwayColum__text {
+    text-align: center;
+  }
+
+  .lineAwayColum__list {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .lineAwayColum__bottom {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .linerCards__item-body {
+    width: 58vw;
+    height: 32vw;
+  }
+
+  .linerCards__text {
+    font-size: calc(15px + 1.4583333333vw);
+  }
+
+  .linerCards__number {
+    font-size: calc(25px + 1.9444444444vw);
+  }
+}
+@media (max-width: 475px) {
+  .aboutLiner__img {
+    width: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .lineAwayColum__list {
+    max-width: 320px;
+  }
+
+  .lineAwayColum__right {
+    width: 200px;
+  }
 }

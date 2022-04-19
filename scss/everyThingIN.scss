@@ -109,8 +109,8 @@
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: calc(20px + 16*(100vw/1440));
+    line-height: calc(48/36)*100%;
     color: #F4F4F4;
 }
 .Allin__subCaption {
@@ -119,8 +119,8 @@
 font-family: 'Source Sans Pro';
 font-style: normal;
 font-weight: 400;
-font-size: 22px;
-line-height: 28px;
+font-size: calc(13px + 9*(100vw/1440));
+line-height: calc(28/22)*100%;
 color: #F4F4F4;
 max-width: 469px;
 }
@@ -488,6 +488,7 @@ transition:all 0.5s ease 0.3s ;
 -moz-transition:all 0.5s ease 0.3s ;
 -ms-transition:all 0.5s ease 0.3s ;
 -o-transition:all 0.5s ease 0.3s ;
+white-space: nowrap;
 }
 
 .allRghtCol__body{  
@@ -723,4 +724,75 @@ transition:all 0.5s ease 0.3s ;
     -moz-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
     -ms-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
     -o-transform:translateX(0px)  rotate3d(1,1,1,0deg) ;
+}
+
+
+@media (max-width:1110px) {
+    .main__allIN {
+        padding-bottom:40px;
+    } 
+}
+
+@media (max-width:1059px) {
+    .Allin__imgColumn {
+        display: none;
+    }
+}
+
+@media (max-width:889px) {
+    .Allin__image-container{
+        display: none;
+    }
+    
+}
+@media (max-width:711px) {
+    .Allin__downside-body{
+        flex-wrap: wrap;
+    }
+    .Allin__imgColumn {
+        display: flex;
+    }
+    .allCentrCol__damnSticks{
+        display: none;
+    }
+    .allRghtCol__sticks{
+        display: none;
+    }
+    .Allin__rightColumn {
+        margin-top: 40px;
+        flex-direction: row;
+    }
+    .allRghtCol__btn-container{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .allRghtCol__btn{
+        width: 258px;
+        height: 68px;
+        margin-right: -20px;
+    }
+}
+@media (max-width:671px) {
+    .main__allIN {
+        padding-bottom:20px;
+    } 
+    .Allin__rightColumn {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .allRghtCol__body{
+        margin-right: 0px;
+    }
+    .allRghtCol__btn-container{
+        margin-top: 40px;
+    }
+}
+@media (max-width:630px) {
+    .Allin__imgColumn {
+        display: none;
+    }
+    .Allin__centralColumn {
+        margin: 0 auto;
+        flex: 0 1 auto;
+    }
 }

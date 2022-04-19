@@ -1681,6 +1681,7 @@ color: #353535;
 
 
 .headBack__rightPatternSecondChild {
+    display: none;
     position: absolute;
     z-index: 6;
     width: 198.5px;
@@ -1692,11 +1693,11 @@ color: #353535;
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(1px);
-    transform:translateX(700px) translateY(370px) ;
-    -webkit-transform:translateX(700px) translateY(370px) ;
-    -moz-transform:translateX(700px) translateY(370px) ;
-    -ms-transform:translateX(700px) translateY(370px) ;
-    -o-transform:translateX(700px) translateY(370px) ;
+    transform:translateX(0px) translateY(0px) ;
+    -webkit-transform:translateX(0px) translateY(0px) ;
+    -moz-transform:translateX(0px) translateY(0px) ;
+    -ms-transform:translateX(0px) translateY(0px) ;
+    -o-transform:translateX(0px) translateY(0px) ;
 }
 .animItem {
 }
@@ -1782,12 +1783,11 @@ color: #353535;
     background-color: #FFF;
 }
 
-.rightPattern {
-transform: translateY(196%) translateX(364%);
--webkit-transform: translateY(196%) translateX(364%);
--moz-transform: translateY(196%) translateX(364%);
--ms-transform: translateY(196%) translateX(364%);
--o-transform: translateY(196%) translateX(364%);
+.rightPattern { transform: translateY(0px) translateX(0px);
+     -webkit-transform: translateY(0px) translateX(0px); 
+     -moz-transform: translateY(0px) translateX(0px); 
+     -ms-transform: translateY(0px) translateX(0px); 
+     -o-transform: translateY(0px) translateX(0px);
 }
 .rightPattern:hover{
     transform: translateY(156%) translateX(274%);

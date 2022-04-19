@@ -785,8 +785,86 @@
     padding: 6px 74px;
   }
 
+  .Cabin__item-header {
+    transform: translate(-79%, -325px);
+    -webkit-transform: translate(-79%, -325px);
+    -moz-transform: translate(-79%, -325px);
+    -ms-transform: translate(-79%, -325px);
+    -o-transform: translate(-79%, -325px);
+  }
+
+  .Cabin__item:nth-child(3) .Cabin__item-header {
+    transform: translate(-60%, -330px);
+    -webkit-transform: translate(-60%, -330px);
+    -moz-transform: translate(-60%, -330px);
+    -ms-transform: translate(-60%, -330px);
+    -o-transform: translate(-60%, -330px);
+  }
+
   /*.CabContnt__body{
     margin-right: 10px;
     margin-left: 10px;
   }*/
+  .underImage__firstColumn {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 340px) {
+  .CabContnt__body {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .Cabin__item-header {
+    transform: translate(-64%, -325px);
+    -webkit-transform: translate(-64%, -325px);
+    -moz-transform: translate(-64%, -325px);
+    -ms-transform: translate(-64%, -325px);
+    -o-transform: translate(-64%, -325px);
+  }
+
+  .CabContnt__compicatedStructure {
+    transform: translate(294.5px, 14px);
+    -webkit-transform: translate(294.5px, 14px);
+    -moz-transform: translate(-20px, -20px);
+    -ms-transform: translate(-20px, -20px);
+    -o-transform: translate(-20px, -20px);
+  }
+
+  .Cabin__item:nth-child(3) .Cabin__item-body {
+    width: 94%;
+  }
+
+  .Cabin__item:nth-child(3) .CabContnt__body {
+    margin: 20px 15px 0px 15px;
+  }
+
+  .Cabin__item:nth-child(3) .CabContnt__compicatedStructure {
+    transform: translate(302.5px, 24px);
+    -webkit-transform: translate(302.5px, 24px);
+    -moz-transform: translate(302.5px, 24px);
+    -ms-transform: translate(302.5px, 24px);
+    -o-transform: translate(302.5px, 24px);
+  }
+
+  .Cabin__item:nth-child(3) .CabContnt__Structure-body {
+    display: none;
+  }
+
+  .Cabin__item:nth-child(3) .Cabin__item-header {
+    transform: translate(-60%, -334px);
+    -webkit-transform: translate(-60%, -334px);
+    -moz-transform: translate(-60%, -334px);
+    -ms-transform: translate(-60%, -334px);
+    -o-transform: translate(-60%, -334px);
+  }
+
+  .Cabin__item:nth-child(3) .underImage__header {
+    width: 250px;
+    margin-top: 10px;
+  }
+
+  .Cabin__item:nth-child(3) .CabContnt__footer {
+    margin-bottom: 0px;
+  }
 }

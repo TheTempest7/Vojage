@@ -90,7 +90,7 @@
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 900;
-  font-size: 38px;
+  font-size: calc(20px + 1.25vw);
   line-height: 134.2105263158%;
   color: #353535;
 }
@@ -99,7 +99,7 @@
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: calc(13px + 0.625vw);
   line-height: 127.2727272727%;
   color: #353535;
   flex: 1 1 100%;
@@ -451,7 +451,7 @@
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: calc(17px + 0.625vw);
   line-height: 134.6153846154%;
   color: #353535;
   display: flex;
@@ -479,6 +479,10 @@
 }
 
 .reviews__btnCyst {
+  width: 50%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
   margin-bottom: 156px;
   display: flex;
@@ -517,11 +521,12 @@
 }
 
 .reviews__btnLink {
+  white-space: nowrap;
   padding: 12px 20px;
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: calc(14px + 0.5555555556vw);
   line-height: 127.2727272727%;
   color: #F4F4F4;
   transition: all 0.5s ease 0.3s;
@@ -529,4 +534,73 @@
   -moz-transition: all 0.5s ease 0.3s;
   -ms-transition: all 0.5s ease 0.3s;
   -o-transition: all 0.5s ease 0.3s;
+}
+
+@media (max-width: 1000px) {
+  .reviews__content-body {
+    flex-wrap: wrap;
+  }
+
+  .reviews__item:first-child {
+    flex: 1 1 45%;
+    margin-right: 20px;
+  }
+
+  .reviews__item:nth-child(2) {
+    flex: 1 1 45%;
+  }
+
+  .reviews__item:nth-child(3) {
+    flex: 1 1 50%;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 655px) {
+  .reviews__item:first-child {
+    flex: 1 1 55%;
+    margin-right: 0px;
+  }
+
+  .reviews__item:nth-child(2) {
+    flex: 1 1 55%;
+    margin-top: 40px;
+  }
+
+  .reviews__bottom-header {
+    text-align: center;
+  }
+}
+@media (max-width: 510px) {
+  .reviews__caption {
+    font-size: calc(18px + 1.25vw);
+  }
+
+  .reviews__item {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 470px) {
+  .reviews__caption {
+    font-size: calc(16px + 1.25vw);
+  }
+}
+@media (max-width: 430px) {
+  .reviews__caption {
+    font-size: calc(14px + 1.25vw);
+  }
+}
+@media (max-width: 385px) {
+  .reviews__caption {
+    font-size: calc(12px + 1.25vw);
+  }
+}
+@media (max-width: 350px) {
+  .reviews__caption {
+    font-size: calc(10px + 1.25vw);
+  }
+}
+@media (max-width: 320px) {
+  .reviews__item {
+    margin-left: -6px;
+  }
 }

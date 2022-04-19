@@ -147,3 +147,9 @@ transition:all 0.5s ease 0.3s ;
     -ms-transform: rotate(135deg) translateY(9px);
     -o-transform: rotate(135deg) translateY(9px);
 }
+
+@media (max-width:1000px) {
+    .popup__content{
+        padding: 24px 60px;
+    }
+}
