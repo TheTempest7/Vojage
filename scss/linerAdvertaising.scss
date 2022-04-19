@@ -763,6 +763,7 @@ transition:all 0.5s ease 0.3s ;
     }
     .linerDistingue__secondColumnChild {
         max-width: 100%;
+        margin-top: 0px;
     }
     .linerDistingue__imag{
         max-width: 100%;
@@ -775,5 +776,14 @@ transition:all 0.5s ease 0.3s ;
     }
     .linItaliStyleLftSide__text{
         font-size: calc(10px + 6*(100vw/1440));
+    }
+    .linerDistingue__secondColumnChild:nth-child(2){
+        margin-top: 0px;
+    }
+    .linerDistingue__firstColumnChild:nth-child(2){
+        margin-top: 0px;
+    }
+    .linerItalicStyle__secondColumnChild:nth-child(2) {
+        margin-top: 0px;
     }
 }

@@ -767,6 +767,7 @@
 
   .linerDistingue__secondColumnChild {
     max-width: 100%;
+    margin-top: 0px;
   }
 
   .linerDistingue__imag {
@@ -783,5 +784,17 @@
 
   .linItaliStyleLftSide__text {
     font-size: calc(10px + 0.4166666667vw);
+  }
+
+  .linerDistingue__secondColumnChild:nth-child(2) {
+    margin-top: 0px;
+  }
+
+  .linerDistingue__firstColumnChild:nth-child(2) {
+    margin-top: 0px;
+  }
+
+  .linerItalicStyle__secondColumnChild:nth-child(2) {
+    margin-top: 0px;
   }
 }

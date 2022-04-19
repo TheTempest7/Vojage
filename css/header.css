@@ -18,11 +18,13 @@
 .header__background {
   position: absolute;
   width: 100%;
+  overflow: hidden;
 }
 
 .headBack__cyst {
   display: flex;
   width: 100%;
+  overflow: hidden;
 }
 
 .headBack__huge {
@@ -132,6 +134,7 @@
 
 .header__container {
   position: relative;
+  overflow: hidden;
 }
 
 .container {

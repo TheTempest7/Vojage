@@ -194,7 +194,7 @@
 .Cabin__item-header-left {
   flex: 1 0 10%;
   border-left: 1px solid #FFC614;
-  background-color: #F4F4F4;
+  background-color: #FFF;
   height: 10px;
 }
 
@@ -212,7 +212,7 @@
 .Cabin__item-header-right {
   flex: 1 0 10%;
   border-right: 1px solid #FFC614;
-  background-color: #F4F4F4;
+  background-color: #FFF;
   height: 10px;
 }
 

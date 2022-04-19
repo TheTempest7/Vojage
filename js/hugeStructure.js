@@ -51,22 +51,22 @@ window.onload=function(){
 const mainBlock=document.body.querySelector('.main');
 
     if((wholeWidth<1440)&&(wholeWidth>1080)){
-    mainBlock.style.marginTop=`${hugeHieght*0.35}px`
+    mainBlock.style.marginTop=`${hugeHieght*0.35}px`;
 }
     else if((wholeWidth<=1080)&&(wholeWidth>759)){
-        mainBlock.style.marginTop=`${hugeHieght*0.6}px`
+        mainBlock.style.marginTop=`${hugeHieght*0.6}px`;
     }
     else if((wholeWidth<=759)&&(wholeWidth>=570)){
-        mainBlock.style.marginTop=`${hugeHieght*0.8}px`
+        mainBlock.style.marginTop=`${hugeHieght*0.8}px`;
     }
     else if((wholeWidth<570)&&(wholeWidth>360)){
-        mainBlock.style.marginTop=`${hugeHieght*0.1}px`
+        mainBlock.style.marginTop=`${hugeHieght*0.1}px`;
     }
     else if(wholeWidth<=360){
-        mainBlock.style.marginTop=`${hugeHieght*0.4}px`
+        mainBlock.style.marginTop=`${hugeHieght*(-0.25)}px`;
     }
     else if(wholeWidth>1440){
-        mainBlock.style.marginTop=`${hugeHieght*0.4}px`
+        mainBlock.style.marginTop=`${hugeHieght*0.4}px`;
     }
     /**----(width and transform for route structure)---- */
     let alongLine=document.body.querySelector('.map__bigPartThirdChild');
@@ -357,22 +357,22 @@ window.addEventListener('resize',function(){
 const mainBlock=document.body.querySelector('.main');
 
     if((wholeWidth<1440)&&(wholeWidth>1080)){
-    mainBlock.style.marginTop=`${hugeHieght*0.35}px`
+    mainBlock.style.marginTop=`${hugeHieght*0.35}px`;
 }
     else if((wholeWidth<=1080)&&(wholeWidth>759)){
-        mainBlock.style.marginTop=`${hugeHieght*0.6}px`
+        mainBlock.style.marginTop=`${hugeHieght*0.6}px`;
     }
     else if((wholeWidth<=759)&&(wholeWidth>=570)){
-        mainBlock.style.marginTop=`${hugeHieght*0.8}px`
+        mainBlock.style.marginTop=`${hugeHieght*0.8}px`;
     }
     else if((wholeWidth<570)&&(wholeWidth>360)){
-        mainBlock.style.marginTop=`${hugeHieght*0.1}px`
+        mainBlock.style.marginTop=`${hugeHieght*0.1}px`;
     }
     else if(wholeWidth<=360){
-        mainBlock.style.marginTop=`${hugeHieght*0.4}px`
+        mainBlock.style.marginTop=`${hugeHieght*(-0.25)}px`;
     }
     else if(wholeWidth>1440){
-        mainBlock.style.marginTop=`${hugeHieght*0.4}px`
+        mainBlock.style.marginTop=`${hugeHieght*0.4}px`;
     }
     /**----(width and transform for route structure)---- */
     let alongLine=document.body.querySelector('.map__bigPartThirdChild');
