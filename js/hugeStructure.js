@@ -86,7 +86,6 @@ const mainBlock=document.body.querySelector('.main');
         rotateLine.style.transform=`rotate(90deg) translateX(-134px) translateY(${-1161+differWholeWidth}px)`;
     }
     else if(wholeWidth<674){
-        console.log(1231234);
         let differWholeWidth=674-wholeWidth;
         let upLine=document.body.querySelector('.map__littlePartFirstChild');
         let downLine=document.body.querySelector('.map__bigPartFirstChild');
@@ -122,7 +121,6 @@ const mainBlock=document.body.querySelector('.main');
 
         upLine.style.width=`${231-differWholeWidth}px`;
         downLine.style.width=`${158-differWholeWidth}px`;
-        console.log('dsfsdf');
     }
 
     let smallAlongLine=document.body.querySelector('.map__lines');
@@ -246,7 +244,6 @@ const mainBlock=document.body.querySelector('.main');
               /**margin for squad pictures in linerAdvertasing */
           if((wholeWidth<1250)&&(wholeWidth>545)){
             let linerAdverPic=document.body.querySelector('.linerDistingue__firstColumnChild').offsetWidth;
-            console.log(linerAdverPic);
             linerAdverPic=linerAdverPic-260;
         let allFirstColumn=document.body.querySelectorAll('.linerDistingue__firstColumnChild');
         let allSecondColumn=document.body.querySelectorAll('.linerDistingue__secondColumnChild');
@@ -392,7 +389,6 @@ const mainBlock=document.body.querySelector('.main');
         rotateLine.style.transform=`rotate(90deg) translateX(-134px) translateY(${-1161+differWholeWidth}px)`;
     }
     else if(wholeWidth<674){
-        console.log(1231234);
         let differWholeWidth=674-wholeWidth;
         let upLine=document.body.querySelector('.map__littlePartFirstChild');
         let downLine=document.body.querySelector('.map__bigPartFirstChild');
@@ -428,7 +424,6 @@ const mainBlock=document.body.querySelector('.main');
 
         upLine.style.width=`${231-differWholeWidth}px`;
         downLine.style.width=`${158-differWholeWidth}px`;
-        console.log('dsfsdf');
     }
 
     let smallAlongLine=document.body.querySelector('.map__lines');
@@ -575,7 +570,6 @@ const mainBlock=document.body.querySelector('.main');
           /**margin for squad pictures in linerAdvertasing */
           if((wholeWidth<1250)&&(wholeWidth>545)){
             let linerAdverPic=document.body.querySelector('.linerDistingue__firstColumnChild').offsetWidth;
-            console.log(linerAdverPic);
             linerAdverPic=linerAdverPic-260;
         let allFirstColumn=document.body.querySelectorAll('.linerDistingue__firstColumnChild');
         let allSecondColumn=document.body.querySelectorAll('.linerDistingue__secondColumnChild');

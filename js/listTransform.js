@@ -13,8 +13,7 @@ document.addEventListener('click',(e)=>{
     let floatMenuBody=document.body.querySelector('.leftList__body');
     let ourSpan=document.body.querySelector('.Table__span');
     let closeLink=document.body.querySelectorAll('.leftList__link');
-    console.log(closeLink);
-console.log(e.target.closest('.leftList__body'));
+
 
 for(let i=0;i<closeLink.length;i++){
 let itemLink=closeLink[i];
