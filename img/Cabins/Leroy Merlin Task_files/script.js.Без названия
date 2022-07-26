@@ -1,0 +1,50 @@
+
+/*---------------------------------------(1)----------------------------------*/
+function setMatrix(rows,columns){
+let arr=[];
+for(let i=0; i<rows;i++){
+    arr[i]=[];
+    for(let j=0;j<columns;j++){
+        arr[i][j]=i+j+1;
+    }
+}
+return arr;
+}
+console.log(setMatrix(3,3));
+
+let handMatrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+];
+
+function matrixRevrse(){
+    let srt='';
+    let s=[];
+    for(let i=0;i<3;i++){
+        s.push(handMatrix[0][i])
+    }
+    return s;
+    console.log(s);
+}
+matrixRevrse();
+
+
+
+
+
+
+/*---------------------------------------(1)----------------------------------*/
+/*---------------------------------------(2)----------------------------------*/
+console.log(Boolean('0'));
+
+
+/*---------------------------------------(2)----------------------------------*/
+/*---------------------------------------(3)----------------------------------*/
+
+let burger=document.body.querySelector('.burger');
+
+burger.addEventListener('click',(e)=>{
+e.target.closest('.burger').classList.toggle('active');;
+})
+/*---------------------------------------(3)----------------------------------*/
