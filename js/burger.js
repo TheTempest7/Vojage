@@ -4,4 +4,5 @@ let fatherBurger=document.body.querySelector('.header__upsideBar ');/**(parent b
 
 burgerTrigger.addEventListener('click',function(){
     fatherBurger.classList.toggle('action');
+    
 })
